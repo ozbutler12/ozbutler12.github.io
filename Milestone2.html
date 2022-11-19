@@ -1,0 +1,2134 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>506b082951f740b1a60a72b2c32a76a1</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="t2gIqnNdgonW">
+<p>Project Name: Movie Trends</p>
+<p>By: Owen Butler</p>
+<p>Link for website: <a href="https://github.com/ozbutler12/ozbutler12.github.io/blob/main/Milestone%201.ipynb" class="uri">https://github.com/ozbutler12/ozbutler12.github.io/blob/main/Milestone%201.ipynb</a></p>
+<p>Link for Github: <a href="https://github.com/ozbutler12/ozbutler12.github.io" class="uri">https://github.com/ozbutler12/ozbutler12.github.io</a></p>
+</div>
+<div class="cell code" data-execution_count="1044" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="9glTBo8loTP1" data-outputId="a09049c1-9e5a-47c8-ffa8-b9d60e48caa9">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/drive&#39;</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>cd <span class="op">/</span>content<span class="op">/</span>drive<span class="op">/</span>My Drive<span class="op">/</span>Colab Notebooks</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(&quot;/content/drive&quot;, force_remount=True).
+/content/drive/My Drive/Colab Notebooks
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="1073" data-colab="{&quot;height&quot;:17,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="4fMAAq18nB2t" data-outputId="aeefa162-fea5-4ceb-d990-d0f57245b3a5">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> ast</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> display, HTML</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>display(HTML(<span class="st">&quot;&lt;style&gt;.container { width:95% !important; }&lt;/style&gt;&quot;</span>))</span></code></pre></div>
+<div class="output display_data">
+<style>.container { width:95% !important; }</style>
+</div>
+</div>
+<div class="cell code" data-execution_count="1046" id="Y-nj4r-_nI3p">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>netflix_df <span class="op">=</span> pd.read_csv(<span class="vs">r&#39;Data/netflix.csv&#39;</span>) <span class="co">#import netflix </span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>amazon_df <span class="op">=</span> pd.read_csv(<span class="vs">r&#39;Data/amazon.csv&#39;</span>) <span class="co">#import amazon</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>IMDB_df <span class="op">=</span> pd.read_csv(<span class="vs">r&#39;Data/IMDB.csv&#39;</span>) <span class="co">#import IMDB</span></span></code></pre></div>
+</div>
+<section id="project-goals" class="cell markdown" id="6FYbOc26ohNr">
+<h1>Project Goals</h1>
+</section>
+<div class="cell markdown" id="6Yyy-ehPonW-">
+<p>In this project, I hope to discover different and trends regarding movies. This includes if a movie's runtime or genre is indicitive of its rating. Also, I am curious to learn if you are able to predict what genre a movie is based off of its other information. So far, I have found three different datasets that can help me to find a correlation. Each of these datasets contain information regarding different movies. I have decided to use a dataset on Netflix, Amazon Prime, and IMDB.</p>
+</div>
+<section id="collaboration-plan" class="cell markdown" id="g56GmVVjoqDf">
+<h1>Collaboration Plan</h1>
+</section>
+<div class="cell markdown" id="D8abxWjWor1y">
+<p>For this project, I plan on working by myself and using a GitHub repository to store all my information and research. I will also be using Google Drive to help me to stay organized as well. Due to this being an individual project, it will be easy for me to keep track of everything occurring and what needs to be done. I am planning on also using Google Calendar to keep track of project deadlines to ensure that nothing is forgotten about.</p>
+</div>
+<section id="table-1" class="cell markdown" id="m19Y1BZIoyGu">
+<h1>Table 1</h1>
+</section>
+<div class="cell markdown" id="BojCAndDo36l">
+<p>The first dataset I found is from <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows">kaggle.com</a>, containing a list of Netflix TV shows and Movies. This dataset has more than 8000 movies; however, all of these movies are solely from Netflix’s library. This could create a possible problem as I would not be able to answer any questions about movies at a whole. This data can be used to determine if there is a trend in if any directors perfer to work with certain actors. Another way the database could be used is to see if there is a relationship between a movie's runtime and its genre. Additionally, it can be used to see if you can predict a movie's IMDB rating based off of its duration, rating, and genre.</p>
+</div>
+<div class="cell code" data-execution_count="1047" data-colab="{&quot;height&quot;:389,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="WwWgC_uln_9e" data-outputId="06ecfaa6-ab2a-479a-8e92-80c149ebe25e">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>netflix_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1047">
+
+  <div id="df-a07d7434-069f-4416-ad23-56200a094940">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>show_id</th>
+      <th>type</th>
+      <th>title</th>
+      <th>director</th>
+      <th>cast</th>
+      <th>country</th>
+      <th>date_added</th>
+      <th>release_year</th>
+      <th>rating</th>
+      <th>duration</th>
+      <th>listed_in</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>s1</td>
+      <td>Movie</td>
+      <td>Dick Johnson Is Dead</td>
+      <td>Kirsten Johnson</td>
+      <td>NaN</td>
+      <td>United States</td>
+      <td>September 25, 2021</td>
+      <td>2020</td>
+      <td>PG-13</td>
+      <td>90 min</td>
+      <td>Documentaries</td>
+      <td>As her father nears the end of his life, filmm...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>s2</td>
+      <td>TV Show</td>
+      <td>Blood &amp; Water</td>
+      <td>NaN</td>
+      <td>Ama Qamata, Khosi Ngema, Gail Mabalane, Thaban...</td>
+      <td>South Africa</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>2 Seasons</td>
+      <td>International TV Shows, TV Dramas, TV Mysteries</td>
+      <td>After crossing paths at a party, a Cape Town t...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>s3</td>
+      <td>TV Show</td>
+      <td>Ganglands</td>
+      <td>Julien Leclercq</td>
+      <td>Sami Bouajila, Tracy Gotoas, Samuel Jouy, Nabi...</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Crime TV Shows, International TV Shows, TV Act...</td>
+      <td>To protect his family from a powerful drug lor...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>s4</td>
+      <td>TV Show</td>
+      <td>Jailbirds New Orleans</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Docuseries, Reality TV</td>
+      <td>Feuds, flirtations and toilet talk go down amo...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>s5</td>
+      <td>TV Show</td>
+      <td>Kota Factory</td>
+      <td>NaN</td>
+      <td>Mayur More, Jitendra Kumar, Ranjan Raj, Alam K...</td>
+      <td>India</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>2 Seasons</td>
+      <td>International TV Shows, Romantic TV Shows, TV ...</td>
+      <td>In a city of coaching centers known to train I...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-a07d7434-069f-4416-ad23-56200a094940')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-a07d7434-069f-4416-ad23-56200a094940 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-a07d7434-069f-4416-ad23-56200a094940');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="V_q4rNE4ECgQ">
+<p>For this dataframe there are several columns that are not needed for the analysis. These columns include the show_id, and the description.</p>
+</div>
+<div class="cell code" data-execution_count="1048" data-colab="{&quot;height&quot;:337,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ir0_0kkGg-ei" data-outputId="7e3c5726-2a28-4f38-c714-b6f702d3aa8a">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>netflix_df<span class="op">=</span>netflix_df.drop(columns <span class="op">=</span> [<span class="st">&quot;show_id&quot;</span>, <span class="st">&quot;description&quot;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>netflix_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1048">
+
+  <div id="df-93b1b989-9176-4245-9039-1324ffa420b6">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>type</th>
+      <th>title</th>
+      <th>director</th>
+      <th>cast</th>
+      <th>country</th>
+      <th>date_added</th>
+      <th>release_year</th>
+      <th>rating</th>
+      <th>duration</th>
+      <th>listed_in</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Movie</td>
+      <td>Dick Johnson Is Dead</td>
+      <td>Kirsten Johnson</td>
+      <td>NaN</td>
+      <td>United States</td>
+      <td>September 25, 2021</td>
+      <td>2020</td>
+      <td>PG-13</td>
+      <td>90 min</td>
+      <td>Documentaries</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>TV Show</td>
+      <td>Blood &amp; Water</td>
+      <td>NaN</td>
+      <td>Ama Qamata, Khosi Ngema, Gail Mabalane, Thaban...</td>
+      <td>South Africa</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>2 Seasons</td>
+      <td>International TV Shows, TV Dramas, TV Mysteries</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>TV Show</td>
+      <td>Ganglands</td>
+      <td>Julien Leclercq</td>
+      <td>Sami Bouajila, Tracy Gotoas, Samuel Jouy, Nabi...</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Crime TV Shows, International TV Shows, TV Act...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>TV Show</td>
+      <td>Jailbirds New Orleans</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Docuseries, Reality TV</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>TV Show</td>
+      <td>Kota Factory</td>
+      <td>NaN</td>
+      <td>Mayur More, Jitendra Kumar, Ranjan Raj, Alam K...</td>
+      <td>India</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>2 Seasons</td>
+      <td>International TV Shows, Romantic TV Shows, TV ...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-93b1b989-9176-4245-9039-1324ffa420b6')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-93b1b989-9176-4245-9039-1324ffa420b6 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-93b1b989-9176-4245-9039-1324ffa420b6');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="tpcdf_w4i_Ux">
+<p>One interesting statistic and graph is that there are significantly more movies than there are TV shows.</p>
+</div>
+<div class="cell code" data-execution_count="1049" data-colab="{&quot;height&quot;:316,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="YExI1XYpjBlY" data-outputId="78543d30-0434-4fd7-d66b-6ffb690a737b">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>netflix_df[<span class="st">&quot;type&quot;</span>].value_counts().plot.bar()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1049">
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f2d02bd2810&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_37de535575f9437d9dc022e784a858e2/e2439ba4d84efe4366cb7448ce9b8b1ec151f798.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="ezQsjo5-jEqf">
+<p>Another interesting statistic is that the most common release year for a movie on netflix is 2018.</p>
+</div>
+<div class="cell code" data-execution_count="1050" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="JkUJ5BvfjGt-" data-outputId="4abb9b77-8f6e-48d2-9873-5bec5eaf42b8">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>netflix_df[<span class="st">&quot;release_year&quot;</span>].value_counts().idxmax()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1050">
+<pre><code>2018</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="hjeoO4oNjJJz">
+<p>Checking the dtypes to make sure that they are properly formatted.</p>
+</div>
+<div class="cell code" data-execution_count="1051" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="r9new7qTL-Kw" data-outputId="c1e6acf6-3bc7-4c55-899f-9ee0c983bc62">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>netflix_df.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1051">
+<pre><code>type            object
+title           object
+director        object
+cast            object
+country         object
+date_added      object
+release_year     int64
+rating          object
+duration        object
+listed_in       object
+dtype: object</code></pre>
+</div>
+</div>
+<section id="table-2" class="cell markdown" id="ByXpqqTJpHIm">
+<h1>Table 2</h1>
+</section>
+<div class="cell markdown" id="Ui2UyvFFpM0I">
+<p>Another dataset I found is about Amazon Prime Video, which is also from <a href="https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows">kaggle.com</a>. This dataset contains most of the same information as Netflix; however, it has a similar problem. This is because the data is only relevant to a movie's performance on Amazon. Amazon Prime has 38 million fewer users; however, it contains a library of 10,000 different movies and TV shows, larger than Netflix’s. This data contains anything I would need about any movie on Amazon Prime. This includes its duration, rating, genre, release year, cast, director, etc. This dataset could be used to answer a variety of different questions. One possible question could be if certain directors perform better in certain genres. Another could be if there is a relationship between the genre of a movie and its popularity.</p>
+</div>
+<div class="cell code" data-execution_count="1052" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="7J2cJ_BTpO-h" data-outputId="da629334-426b-48fb-ba88-93f338c07aed">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>amazon_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1052">
+
+  <div id="df-398f6be6-a026-41b8-a87f-5e197d75cbe1">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>show_id</th>
+      <th>type</th>
+      <th>title</th>
+      <th>director</th>
+      <th>cast</th>
+      <th>country</th>
+      <th>date_added</th>
+      <th>release_year</th>
+      <th>rating</th>
+      <th>duration</th>
+      <th>listed_in</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>s1</td>
+      <td>Movie</td>
+      <td>The Grand Seduction</td>
+      <td>Don McKellar</td>
+      <td>Brendan Gleeson, Taylor Kitsch, Gordon Pinsent</td>
+      <td>Canada</td>
+      <td>March 30, 2021</td>
+      <td>2014</td>
+      <td>NaN</td>
+      <td>113 min</td>
+      <td>Comedy, Drama</td>
+      <td>A small fishing village must procure a local d...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>s2</td>
+      <td>Movie</td>
+      <td>Take Care Good Night</td>
+      <td>Girish Joshi</td>
+      <td>Mahesh Manjrekar, Abhay Mahajan, Sachin Khedekar</td>
+      <td>India</td>
+      <td>March 30, 2021</td>
+      <td>2018</td>
+      <td>13+</td>
+      <td>110 min</td>
+      <td>Drama, International</td>
+      <td>A Metro Family decides to fight a Cyber Crimin...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>s3</td>
+      <td>Movie</td>
+      <td>Secrets of Deception</td>
+      <td>Josh Webber</td>
+      <td>Tom Sizemore, Lorenzo Lamas, Robert LaSardo, R...</td>
+      <td>United States</td>
+      <td>March 30, 2021</td>
+      <td>2017</td>
+      <td>NaN</td>
+      <td>74 min</td>
+      <td>Action, Drama, Suspense</td>
+      <td>After a man discovers his wife is cheating on ...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>s4</td>
+      <td>Movie</td>
+      <td>Pink: Staying True</td>
+      <td>Sonia Anderson</td>
+      <td>Interviews with: Pink, Adele, Beyoncé, Britney...</td>
+      <td>United States</td>
+      <td>March 30, 2021</td>
+      <td>2014</td>
+      <td>NaN</td>
+      <td>69 min</td>
+      <td>Documentary</td>
+      <td>Pink breaks the mold once again, bringing her ...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>s5</td>
+      <td>Movie</td>
+      <td>Monster Maker</td>
+      <td>Giles Foster</td>
+      <td>Harry Dean Stanton, Kieran O'Brien, George Cos...</td>
+      <td>United Kingdom</td>
+      <td>March 30, 2021</td>
+      <td>1989</td>
+      <td>NaN</td>
+      <td>45 min</td>
+      <td>Drama, Fantasy</td>
+      <td>Teenage Matt Banting wants to work with a famo...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-398f6be6-a026-41b8-a87f-5e197d75cbe1')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-398f6be6-a026-41b8-a87f-5e197d75cbe1 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-398f6be6-a026-41b8-a87f-5e197d75cbe1');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="XXyodcBwGYzo">
+<p>The amazon dataframe also contains several columns that are not needed for the analysis. These columns include the show_id, date_added, and the description.</p>
+</div>
+<div class="cell code" data-execution_count="1053" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ZvtM1DDIpUec" data-outputId="39fc96cb-2ce0-4cfd-9c31-d3fadad0db32">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>amazon_df<span class="op">=</span>amazon_df.drop(columns <span class="op">=</span> [<span class="st">&quot;show_id&quot;</span>, <span class="st">&quot;date_added&quot;</span>,<span class="st">&quot;description&quot;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>amazon_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1053">
+
+  <div id="df-b08e2965-7c57-46ae-908f-6a72dd6412bc">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>type</th>
+      <th>title</th>
+      <th>director</th>
+      <th>cast</th>
+      <th>country</th>
+      <th>release_year</th>
+      <th>rating</th>
+      <th>duration</th>
+      <th>listed_in</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Movie</td>
+      <td>The Grand Seduction</td>
+      <td>Don McKellar</td>
+      <td>Brendan Gleeson, Taylor Kitsch, Gordon Pinsent</td>
+      <td>Canada</td>
+      <td>2014</td>
+      <td>NaN</td>
+      <td>113 min</td>
+      <td>Comedy, Drama</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Movie</td>
+      <td>Take Care Good Night</td>
+      <td>Girish Joshi</td>
+      <td>Mahesh Manjrekar, Abhay Mahajan, Sachin Khedekar</td>
+      <td>India</td>
+      <td>2018</td>
+      <td>13+</td>
+      <td>110 min</td>
+      <td>Drama, International</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Movie</td>
+      <td>Secrets of Deception</td>
+      <td>Josh Webber</td>
+      <td>Tom Sizemore, Lorenzo Lamas, Robert LaSardo, R...</td>
+      <td>United States</td>
+      <td>2017</td>
+      <td>NaN</td>
+      <td>74 min</td>
+      <td>Action, Drama, Suspense</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Movie</td>
+      <td>Pink: Staying True</td>
+      <td>Sonia Anderson</td>
+      <td>Interviews with: Pink, Adele, Beyoncé, Britney...</td>
+      <td>United States</td>
+      <td>2014</td>
+      <td>NaN</td>
+      <td>69 min</td>
+      <td>Documentary</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Movie</td>
+      <td>Monster Maker</td>
+      <td>Giles Foster</td>
+      <td>Harry Dean Stanton, Kieran O'Brien, George Cos...</td>
+      <td>United Kingdom</td>
+      <td>1989</td>
+      <td>NaN</td>
+      <td>45 min</td>
+      <td>Drama, Fantasy</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-b08e2965-7c57-46ae-908f-6a72dd6412bc')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-b08e2965-7c57-46ae-908f-6a72dd6412bc button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-b08e2965-7c57-46ae-908f-6a72dd6412bc');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="10WsbRMBPum_">
+<p>After this, I decided to change all of the different ratings to correspond with the american rating system. To do this, I identified all of the unique values that Amazon uses, and then converted them to the correct ones.</p>
+</div>
+<div class="cell code" data-execution_count="1054" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="4tTurtGaQgDM" data-outputId="d53c37f7-e783-4e25-d648-6bcb503b41c4">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>amazon_df[<span class="st">&quot;rating&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1054">
+<pre><code>array([nan, &#39;13+&#39;, &#39;ALL&#39;, &#39;18+&#39;, &#39;R&#39;, &#39;TV-Y&#39;, &#39;TV-Y7&#39;, &#39;NR&#39;, &#39;16+&#39;,
+       &#39;TV-PG&#39;, &#39;7+&#39;, &#39;TV-14&#39;, &#39;TV-NR&#39;, &#39;TV-G&#39;, &#39;PG-13&#39;, &#39;TV-MA&#39;, &#39;G&#39;,
+       &#39;PG&#39;, &#39;NC-17&#39;, &#39;UNRATED&#39;, &#39;16&#39;, &#39;AGES_16_&#39;, &#39;AGES_18_&#39;, &#39;ALL_AGES&#39;,
+       &#39;NOT_RATE&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="1055" id="0ruB6HzMPme0">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>amazon_df[<span class="st">&quot;rating&quot;</span>]<span class="op">=</span>amazon_df[<span class="st">&quot;rating&quot;</span>].<span class="bu">map</span>({</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;All_Ages&quot;</span>: <span class="st">&quot;G&quot;</span>,</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;ALL&quot;</span>:<span class="st">&quot;G&quot;</span>,</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;7+&quot;</span>:<span class="st">&quot;PG&quot;</span>,</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;13+&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;16+&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;18+&quot;</span>:<span class="st">&quot;R&quot;</span>,</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;16&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;AGES_16&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;AGES_16_&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;AGES_18&quot;</span>:<span class="st">&quot;R&quot;</span>,</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;AGES_18_&quot;</span>:<span class="st">&quot;R&quot;</span>,</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;NOT_RATE&quot;</span>:<span class="st">&quot;UNRATED&quot;</span></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+</div>
+<div class="cell markdown" id="C_SvcjB4IwPk">
+<p>An interesting statistic for this dataframe is that the most common country for movies is the United States followed by India. I am very suprised that India has such a large amount of movies on Amazon Prime Video. I am very suprised that there are 201 more movies created in India than the United Kingdom.</p>
+</div>
+<div class="cell code" data-execution_count="1056" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="nmR6DZE3Izjb" data-outputId="c99a3fbd-2373-4c87-e22e-04079197b6ea">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>amazon_df[<span class="st">&quot;country&quot;</span>].value_counts()[:<span class="dv">4</span>].plot.bar()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1056">
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f2d02b35ed0&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_37de535575f9437d9dc022e784a858e2/51bd2c948d088683f7d2446724d4417ff9fbc196.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="1057" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="V4kPTZbLIODv" data-outputId="0fff9e45-687f-4f07-84ee-a90a7719b4c0">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>India<span class="op">=</span>amazon_df[<span class="st">&quot;country&quot;</span>].value_counts()[<span class="st">&quot;India&quot;</span>] <span class="co">#Amount of movies from India</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>UK <span class="op">=</span> amazon_df[<span class="st">&quot;country&quot;</span>].value_counts()[<span class="st">&quot;United Kingdom&quot;</span>] <span class="co">#Amount of movies from the United Kingdom</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>India<span class="op">-</span>UK</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1057">
+<pre><code>201</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="8EwhxQzyLvRD">
+<p>Checking the dtypes to make that they are properly formatted.</p>
+</div>
+<div class="cell code" data-execution_count="1058" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="hFQ3bFATLqWP" data-outputId="8c74ef33-6abf-48a0-de13-50cf22827f78">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>amazon_df.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1058">
+<pre><code>type            object
+title           object
+director        object
+cast            object
+country         object
+release_year     int64
+rating          object
+duration        object
+listed_in       object
+dtype: object</code></pre>
+</div>
+</div>
+<section id="table-3" class="cell markdown" id="cQBGvWXXpTw7">
+<h1>Table 3</h1>
+</section>
+<div class="cell markdown" id="yactlLxbpWBX">
+<p>The third dataset I found is from <a href="https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows">kaggle.com</a>, which regards IMDB’s database. This dataset contains IMDB’s top 1000 movies. IMDB’s dataset contains a movie's name, release year, Meta_Score, IMDB_Rating, runtime, gross earnings, and more. This dataset would be very useful in answering a variety of questions. These questions can range from predicting movie earning potential based on its genre and runtime, or which combination of actors generates the best ratings. The main downside of this dataset is that it only contains the most successful movies and does not have any outliers.</p>
+</div>
+<div class="cell code" data-execution_count="1059" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="-rxSwGP9pX-s" data-outputId="51e51b08-3a67-43d0-81e1-fffcc24b3324">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>IMDB_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1059">
+
+  <div id="df-c0b718be-4b3e-4465-9528-fe0d105a5f33">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Poster_Link</th>
+      <th>Series_Title</th>
+      <th>Released_Year</th>
+      <th>Certificate</th>
+      <th>Runtime</th>
+      <th>Genre</th>
+      <th>IMDB_Rating</th>
+      <th>Overview</th>
+      <th>Meta_score</th>
+      <th>Director</th>
+      <th>Star1</th>
+      <th>Star2</th>
+      <th>Star3</th>
+      <th>Star4</th>
+      <th>No_of_Votes</th>
+      <th>Gross</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>https://m.media-amazon.com/images/M/MV5BMDFkYT...</td>
+      <td>The Shawshank Redemption</td>
+      <td>1994</td>
+      <td>A</td>
+      <td>142 min</td>
+      <td>Drama</td>
+      <td>9.3</td>
+      <td>Two imprisoned men bond over a number of years...</td>
+      <td>80.0</td>
+      <td>Frank Darabont</td>
+      <td>Tim Robbins</td>
+      <td>Morgan Freeman</td>
+      <td>Bob Gunton</td>
+      <td>William Sadler</td>
+      <td>2343110</td>
+      <td>28,341,469</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>https://m.media-amazon.com/images/M/MV5BM2MyNj...</td>
+      <td>The Godfather</td>
+      <td>1972</td>
+      <td>A</td>
+      <td>175 min</td>
+      <td>Crime, Drama</td>
+      <td>9.2</td>
+      <td>An organized crime dynasty's aging patriarch t...</td>
+      <td>100.0</td>
+      <td>Francis Ford Coppola</td>
+      <td>Marlon Brando</td>
+      <td>Al Pacino</td>
+      <td>James Caan</td>
+      <td>Diane Keaton</td>
+      <td>1620367</td>
+      <td>134,966,411</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>https://m.media-amazon.com/images/M/MV5BMTMxNT...</td>
+      <td>The Dark Knight</td>
+      <td>2008</td>
+      <td>UA</td>
+      <td>152 min</td>
+      <td>Action, Crime, Drama</td>
+      <td>9.0</td>
+      <td>When the menace known as the Joker wreaks havo...</td>
+      <td>84.0</td>
+      <td>Christopher Nolan</td>
+      <td>Christian Bale</td>
+      <td>Heath Ledger</td>
+      <td>Aaron Eckhart</td>
+      <td>Michael Caine</td>
+      <td>2303232</td>
+      <td>534,858,444</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>https://m.media-amazon.com/images/M/MV5BMWMwMG...</td>
+      <td>The Godfather: Part II</td>
+      <td>1974</td>
+      <td>A</td>
+      <td>202 min</td>
+      <td>Crime, Drama</td>
+      <td>9.0</td>
+      <td>The early life and career of Vito Corleone in ...</td>
+      <td>90.0</td>
+      <td>Francis Ford Coppola</td>
+      <td>Al Pacino</td>
+      <td>Robert De Niro</td>
+      <td>Robert Duvall</td>
+      <td>Diane Keaton</td>
+      <td>1129952</td>
+      <td>57,300,000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>https://m.media-amazon.com/images/M/MV5BMWU4N2...</td>
+      <td>12 Angry Men</td>
+      <td>1957</td>
+      <td>U</td>
+      <td>96 min</td>
+      <td>Crime, Drama</td>
+      <td>9.0</td>
+      <td>A jury holdout attempts to prevent a miscarria...</td>
+      <td>96.0</td>
+      <td>Sidney Lumet</td>
+      <td>Henry Fonda</td>
+      <td>Lee J. Cobb</td>
+      <td>Martin Balsam</td>
+      <td>John Fiedler</td>
+      <td>689845</td>
+      <td>4,360,000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-c0b718be-4b3e-4465-9528-fe0d105a5f33')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-c0b718be-4b3e-4465-9528-fe0d105a5f33 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-c0b718be-4b3e-4465-9528-fe0d105a5f33');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="MdvlM6uZ66Nv">
+<p>There are some columns that are not necessariy for the analysis. This includes the overview of the movie and the poster for it. Due to this I am going to remove it from the dataframe.</p>
+</div>
+<div class="cell code" data-execution_count="1060" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="-mor-KQQ6A6Q" data-outputId="f45d9617-beed-4888-d3c6-24fdf05cc9d6">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>IMDB_df<span class="op">=</span>IMDB_df.drop(columns <span class="op">=</span> [<span class="st">&quot;Poster_Link&quot;</span>, <span class="st">&quot;Overview&quot;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>IMDB_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1060">
+
+  <div id="df-8c070ab4-8a50-4e54-ad51-e4bf28537da7">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Series_Title</th>
+      <th>Released_Year</th>
+      <th>Certificate</th>
+      <th>Runtime</th>
+      <th>Genre</th>
+      <th>IMDB_Rating</th>
+      <th>Meta_score</th>
+      <th>Director</th>
+      <th>Star1</th>
+      <th>Star2</th>
+      <th>Star3</th>
+      <th>Star4</th>
+      <th>No_of_Votes</th>
+      <th>Gross</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>The Shawshank Redemption</td>
+      <td>1994</td>
+      <td>A</td>
+      <td>142 min</td>
+      <td>Drama</td>
+      <td>9.3</td>
+      <td>80.0</td>
+      <td>Frank Darabont</td>
+      <td>Tim Robbins</td>
+      <td>Morgan Freeman</td>
+      <td>Bob Gunton</td>
+      <td>William Sadler</td>
+      <td>2343110</td>
+      <td>28,341,469</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>The Godfather</td>
+      <td>1972</td>
+      <td>A</td>
+      <td>175 min</td>
+      <td>Crime, Drama</td>
+      <td>9.2</td>
+      <td>100.0</td>
+      <td>Francis Ford Coppola</td>
+      <td>Marlon Brando</td>
+      <td>Al Pacino</td>
+      <td>James Caan</td>
+      <td>Diane Keaton</td>
+      <td>1620367</td>
+      <td>134,966,411</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>The Dark Knight</td>
+      <td>2008</td>
+      <td>UA</td>
+      <td>152 min</td>
+      <td>Action, Crime, Drama</td>
+      <td>9.0</td>
+      <td>84.0</td>
+      <td>Christopher Nolan</td>
+      <td>Christian Bale</td>
+      <td>Heath Ledger</td>
+      <td>Aaron Eckhart</td>
+      <td>Michael Caine</td>
+      <td>2303232</td>
+      <td>534,858,444</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>The Godfather: Part II</td>
+      <td>1974</td>
+      <td>A</td>
+      <td>202 min</td>
+      <td>Crime, Drama</td>
+      <td>9.0</td>
+      <td>90.0</td>
+      <td>Francis Ford Coppola</td>
+      <td>Al Pacino</td>
+      <td>Robert De Niro</td>
+      <td>Robert Duvall</td>
+      <td>Diane Keaton</td>
+      <td>1129952</td>
+      <td>57,300,000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>12 Angry Men</td>
+      <td>1957</td>
+      <td>U</td>
+      <td>96 min</td>
+      <td>Crime, Drama</td>
+      <td>9.0</td>
+      <td>96.0</td>
+      <td>Sidney Lumet</td>
+      <td>Henry Fonda</td>
+      <td>Lee J. Cobb</td>
+      <td>Martin Balsam</td>
+      <td>John Fiedler</td>
+      <td>689845</td>
+      <td>4,360,000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8c070ab4-8a50-4e54-ad51-e4bf28537da7')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-8c070ab4-8a50-4e54-ad51-e4bf28537da7 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-8c070ab4-8a50-4e54-ad51-e4bf28537da7');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="rVzwPEvg7153">
+<p>Additionally the current Certificate ratings is for the Central Board of Film Certification. This system is used for India. For the dataframe I am going to convert it to the american ranking system.</p>
+</div>
+<div class="cell code" data-execution_count="1061" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="6ZPuNouD8M7h" data-outputId="1cff13e4-94b4-4f45-d223-39017cd01f40">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&quot;Certificate&quot;</span>]<span class="op">=</span>IMDB_df[<span class="st">&quot;Certificate&quot;</span>].<span class="bu">map</span>({</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;A&quot;</span>: <span class="st">&quot;R&quot;</span>,</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;U&quot;</span>:<span class="st">&quot;PG&quot;</span>,</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;UA&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;U/A&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;S&quot;</span>:<span class="st">&quot;NC-17&quot;</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>IMDB_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1061">
+
+  <div id="df-9ba14073-a26e-4ac8-aafc-bed2feaa26df">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Series_Title</th>
+      <th>Released_Year</th>
+      <th>Certificate</th>
+      <th>Runtime</th>
+      <th>Genre</th>
+      <th>IMDB_Rating</th>
+      <th>Meta_score</th>
+      <th>Director</th>
+      <th>Star1</th>
+      <th>Star2</th>
+      <th>Star3</th>
+      <th>Star4</th>
+      <th>No_of_Votes</th>
+      <th>Gross</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>The Shawshank Redemption</td>
+      <td>1994</td>
+      <td>R</td>
+      <td>142 min</td>
+      <td>Drama</td>
+      <td>9.3</td>
+      <td>80.0</td>
+      <td>Frank Darabont</td>
+      <td>Tim Robbins</td>
+      <td>Morgan Freeman</td>
+      <td>Bob Gunton</td>
+      <td>William Sadler</td>
+      <td>2343110</td>
+      <td>28,341,469</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>The Godfather</td>
+      <td>1972</td>
+      <td>R</td>
+      <td>175 min</td>
+      <td>Crime, Drama</td>
+      <td>9.2</td>
+      <td>100.0</td>
+      <td>Francis Ford Coppola</td>
+      <td>Marlon Brando</td>
+      <td>Al Pacino</td>
+      <td>James Caan</td>
+      <td>Diane Keaton</td>
+      <td>1620367</td>
+      <td>134,966,411</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>The Dark Knight</td>
+      <td>2008</td>
+      <td>PG-13</td>
+      <td>152 min</td>
+      <td>Action, Crime, Drama</td>
+      <td>9.0</td>
+      <td>84.0</td>
+      <td>Christopher Nolan</td>
+      <td>Christian Bale</td>
+      <td>Heath Ledger</td>
+      <td>Aaron Eckhart</td>
+      <td>Michael Caine</td>
+      <td>2303232</td>
+      <td>534,858,444</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>The Godfather: Part II</td>
+      <td>1974</td>
+      <td>R</td>
+      <td>202 min</td>
+      <td>Crime, Drama</td>
+      <td>9.0</td>
+      <td>90.0</td>
+      <td>Francis Ford Coppola</td>
+      <td>Al Pacino</td>
+      <td>Robert De Niro</td>
+      <td>Robert Duvall</td>
+      <td>Diane Keaton</td>
+      <td>1129952</td>
+      <td>57,300,000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>12 Angry Men</td>
+      <td>1957</td>
+      <td>PG</td>
+      <td>96 min</td>
+      <td>Crime, Drama</td>
+      <td>9.0</td>
+      <td>96.0</td>
+      <td>Sidney Lumet</td>
+      <td>Henry Fonda</td>
+      <td>Lee J. Cobb</td>
+      <td>Martin Balsam</td>
+      <td>John Fiedler</td>
+      <td>689845</td>
+      <td>4,360,000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-9ba14073-a26e-4ac8-aafc-bed2feaa26df')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-9ba14073-a26e-4ac8-aafc-bed2feaa26df button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-9ba14073-a26e-4ac8-aafc-bed2feaa26df');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="KLhPaLyO-mwo">
+<p>One interesting statistic from this data is that the majority of movies in the top 1000 movies are rated PG, followed by R. I find this very interesting that PG-13 movies are last because they are the middle ranking in terms of their certificate.</p>
+</div>
+<div class="cell code" data-execution_count="1062" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="qVI5AUEb9p2_" data-outputId="5a32077b-427f-4e5a-8e0a-5722f6901e68">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&quot;Certificate&quot;</span>].value_counts().plot.bar()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1062">
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f2d02b2ba50&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_37de535575f9437d9dc022e784a858e2/51020341615d13be356e10496fff13d04996a36b.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="yGWIOixlAGNj">
+<p>Another interesting statistic is that Tom Hanks is the most popular lead actor in the top 1000 movies with having directed 12 movies.</p>
+</div>
+<div class="cell code" data-execution_count="1063" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="FWTMU3Yz_0UK" data-outputId="660d82d8-bab6-4e65-e8ca-d72b29ed921f">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&quot;Star1&quot;</span>].value_counts().idxmax()</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&quot;Star1&quot;</span>].value_counts()[<span class="st">&quot;Tom Hanks&quot;</span>]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1063">
+<pre><code>12</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="MOsRgpo_MDEP">
+<p>Checking the dtypes to make sure that they are properly formatted.</p>
+</div>
+<div class="cell code" data-execution_count="1064" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="pd1AIto0MK--" data-outputId="9b203e85-cca3-418d-f9f3-9d482fbf24d9">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>IMDB_df.dtypes</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1064">
+<pre><code>Series_Title      object
+Released_Year      int64
+Certificate       object
+Runtime           object
+Genre             object
+IMDB_Rating      float64
+Meta_score       float64
+Director          object
+Star1             object
+Star2             object
+Star3             object
+Star4             object
+No_of_Votes        int64
+Gross             object
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="6SOeOGESMVUa">
+<p>#Mergin the Data</p>
+</div>
+<div class="cell markdown" id="29sGILN8MZl0">
+<p>In order to make any analysis over the entirety of the movie industry I needed to merge my dataframes. I decided to not use the Neflix datadue to there being a lot of repeats with the amazon prime one, as well as it containing several errors. These errors include having some runtimes in its rating system. Also, with both the Amazon and IMDB data, there is almost 10,000 movies. To merge these data frames, I needed to make some significant changes to the data and merge them. To do this, I rename several of the columns and remove any irrelevant ones. By doing this, it leaves me with a dataframe that contains all of the movies from the IMDB and amazon datasources.</p>
+</div>
+<div class="cell code" data-execution_count="1065" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="oFek2gag8QlL" data-outputId="5e27150b-c181-4fd8-92dc-71871000a3a5">
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&quot;cast&quot;</span>]<span class="op">=</span>IMDB_df[<span class="st">&quot;Star1&quot;</span>]<span class="op">+</span><span class="st">&quot;, &quot;</span><span class="op">+</span>IMDB_df[<span class="st">&quot;Star2&quot;</span>]<span class="op">+</span><span class="st">&quot;, &quot;</span><span class="op">+</span>IMDB_df[<span class="st">&quot;Star3&quot;</span>]<span class="op">+</span><span class="st">&quot;, &quot;</span><span class="op">+</span>IMDB_df[<span class="st">&quot;Star4&quot;</span>]</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>IMDB_df<span class="op">=</span>IMDB_df.drop(columns <span class="op">=</span> [<span class="st">&quot;Star1&quot;</span>,<span class="st">&quot;Star2&quot;</span>,<span class="st">&quot;Star3&quot;</span>,<span class="st">&quot;Star4&quot;</span>,<span class="st">&quot;IMDB_Rating&quot;</span>,<span class="st">&quot;No_of_Votes&quot;</span>,<span class="st">&quot;Gross&quot;</span>,<span class="st">&quot;Meta_score&quot;</span>])</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>IMDB_df.loc[:,<span class="st">&#39;type&#39;</span>] <span class="op">=</span> <span class="bu">str</span>(<span class="st">&#39;Movie&#39;</span>)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>IMDB_df <span class="op">=</span> IMDB_df.rename(columns<span class="op">=</span>{<span class="st">&#39;Director&#39;</span>:<span class="st">&#39;director&#39;</span>,<span class="st">&#39;Released_Year&#39;</span>: <span class="st">&#39;release_year&#39;</span>,<span class="st">&#39;Genre&#39;</span>:<span class="st">&#39;listed_in&#39;</span>,<span class="st">&#39;Series_Title&#39;</span>:<span class="st">&#39;title&#39;</span>,<span class="st">&#39;Certificate&#39;</span>:<span class="st">&#39;rating&#39;</span>,<span class="st">&quot;Runtime&quot;</span>:<span class="st">&quot;duration&quot;</span>})</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>movies_df<span class="op">=</span>pd.concat([IMDB_df, amazon_df],axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>movies_df<span class="op">=</span>movies_df[movies_df[<span class="st">&quot;type&quot;</span>]<span class="op">==</span><span class="st">&quot;Movie&quot;</span>]</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>movies_df<span class="op">=</span>movies_df.drop(columns <span class="op">=</span> [<span class="st">&quot;type&quot;</span>,<span class="st">&quot;country&quot;</span>])</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>movies_df[<span class="st">&#39;duration&#39;</span>] <span class="op">=</span> movies_df[<span class="st">&#39;duration&#39;</span>].<span class="bu">str</span>.replace(<span class="vs">r&#39; min$&#39;</span>, <span class="st">&#39;&#39;</span>)</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>movies_df[<span class="st">&quot;duration&quot;</span>]<span class="op">=</span>movies_df[<span class="st">&quot;duration&quot;</span>].astype(<span class="bu">float</span>)</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>movies_df.head()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:8: FutureWarning: The default value of regex will change from True to False in a future version.
+  
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="1065">
+
+  <div id="df-86636bc9-5a1c-45cd-9657-bd13ad395157">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>title</th>
+      <th>release_year</th>
+      <th>rating</th>
+      <th>duration</th>
+      <th>listed_in</th>
+      <th>director</th>
+      <th>cast</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>The Shawshank Redemption</td>
+      <td>1994</td>
+      <td>R</td>
+      <td>142.0</td>
+      <td>Drama</td>
+      <td>Frank Darabont</td>
+      <td>Tim Robbins, Morgan Freeman, Bob Gunton, Willi...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>The Godfather</td>
+      <td>1972</td>
+      <td>R</td>
+      <td>175.0</td>
+      <td>Crime, Drama</td>
+      <td>Francis Ford Coppola</td>
+      <td>Marlon Brando, Al Pacino, James Caan, Diane Ke...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>The Dark Knight</td>
+      <td>2008</td>
+      <td>PG-13</td>
+      <td>152.0</td>
+      <td>Action, Crime, Drama</td>
+      <td>Christopher Nolan</td>
+      <td>Christian Bale, Heath Ledger, Aaron Eckhart, M...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>The Godfather: Part II</td>
+      <td>1974</td>
+      <td>R</td>
+      <td>202.0</td>
+      <td>Crime, Drama</td>
+      <td>Francis Ford Coppola</td>
+      <td>Al Pacino, Robert De Niro, Robert Duvall, Dian...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>12 Angry Men</td>
+      <td>1957</td>
+      <td>PG</td>
+      <td>96.0</td>
+      <td>Crime, Drama</td>
+      <td>Sidney Lumet</td>
+      <td>Henry Fonda, Lee J. Cobb, Martin Balsam, John ...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-86636bc9-5a1c-45cd-9657-bd13ad395157')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-86636bc9-5a1c-45cd-9657-bd13ad395157 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-86636bc9-5a1c-45cd-9657-bd13ad395157');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="exploratory-analysis" class="cell markdown" id="vMfONnT5HtZ8">
+<h1>Exploratory Analysis</h1>
+</section>
+<div class="cell markdown" id="2UMh1ySHHx7Z">
+<p>Now that the data is organized into one dataframe, I am able to look for different patterns that it has. The first pattern that I looked for was which genre was the most common.</p>
+</div>
+<div class="cell code" data-execution_count="1066" data-colab="{&quot;height&quot;:303,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="PpbqrpTpNnLq" data-outputId="eafabacb-5c69-42cf-a119-2192269a0dc5">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>ratings<span class="op">=</span>movies_df[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:]</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>ratings.dropna()</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>ratings.plot.bar()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_37de535575f9437d9dc022e784a858e2/d79ab90892ab502f2dc298293c9ad45d7deeaf62.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="g7nQ73tKOxze">
+<p>This graph shows that the most common movies are rated PG-13 by a sigificant amount. Additionally, there are not a log of PG movies compared to the other categories.</p>
+</div>
+<div class="cell markdown" id="WgUrLZfWNMWm">
+<p>I also wanted to see if there is an association between a movie's rating and its runtime. To do this, I grouped these two columns together and created a bar graph.</p>
+</div>
+<div class="cell code" data-execution_count="1067" data-colab="{&quot;height&quot;:335,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="qIFTDNEmFAGv" data-outputId="2831d3b8-b39a-4416-f4ff-f1ccfe1e380d">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>ratings<span class="op">=</span>movies_df.groupby(<span class="st">&quot;rating&quot;</span>)[<span class="st">&quot;duration&quot;</span>].mean()</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>ratings.plot.bar()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1067">
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f2d02b1b810&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_37de535575f9437d9dc022e784a858e2/365d842ff427b3dc287ab3442232a6cefdf66053.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="cKoMPmL-ITam">
+<p>Based on this graph, it is evident that movies that with a PG or PG-13 rating have almost an identical runtime. It is also intersting that movies that have a G rating are typically shorter than other types of movies.</p>
+</div>
+<div class="cell markdown" id="GgmUpv3xjfrJ">
+<p>Another way that this data could be analyzed would be through their genre. However, the dataframe is currently storing all of the movies genre's in one column, so I will need to create a new dataframe. This dataframe is created by seperating each genre a movie has into its own entry.</p>
+</div>
+<div class="cell code" data-execution_count="1068" id="VucJ8dqBoEqp">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>movies_df[<span class="st">&quot;listed_in_new&quot;</span>] <span class="op">=</span> movies_df[<span class="st">&quot;listed_in&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x.split(<span class="st">&quot;,&quot;</span>))</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>exploded_movies <span class="op">=</span> movies_df.explode(<span class="st">&quot;listed_in_new&quot;</span>).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>] <span class="op">=</span> exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&quot; &quot;</span>, <span class="st">&quot;&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="fmyo5GyOI76Y">
+<p>After doing this, I wanted to see if a movies runtime is associated with its genre. I created a boxplot to display the 6 most common movie genres and their corresponding runtime. I also created new dataframes for each of the six most popular movie genres to use for other comparisons.</p>
+</div>
+<div class="cell code" data-execution_count="1069" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ixMuZt8eoLl1" data-outputId="68b304a7-089f-412f-a039-f74ec343834a">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>].value_counts()[:<span class="dv">6</span>].index.tolist()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1069">
+<pre><code>[&#39;Drama&#39;, &#39;Comedy&#39;, &#39;Action&#39;, &#39;Suspense&#39;, &#39;Horror&#39;, &#39;Romance&#39;]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="1070" data-colab="{&quot;height&quot;:265,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="LkFiOUtkputi" data-outputId="2837aec1-1502-4819-9be2-7e717edda773">
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>Drama<span class="op">=</span>exploded_movies[exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>]<span class="op">==</span><span class="st">&#39;Drama&#39;</span>]</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>Comedy<span class="op">=</span>exploded_movies[exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>]<span class="op">==</span><span class="st">&#39;Comedy&#39;</span>]</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>Suspense<span class="op">=</span>exploded_movies[exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>]<span class="op">==</span><span class="st">&#39;Suspense&#39;</span>]</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>Action<span class="op">=</span>exploded_movies[exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>]<span class="op">==</span><span class="st">&#39;Action&#39;</span>]</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>Adventure<span class="op">=</span>exploded_movies[exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>]<span class="op">==</span><span class="st">&#39;Adventure&#39;</span>]</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>Horror<span class="op">=</span>exploded_movies[exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>]<span class="op">==</span><span class="st">&#39;Horror&#39;</span>]</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>PopularGenre <span class="op">=</span> pd.DataFrame({<span class="st">&#39;Drama&#39;</span>: Drama[<span class="st">&#39;duration&#39;</span>],<span class="st">&#39;Comedy&#39;</span>: Comedy[<span class="st">&#39;duration&#39;</span>],<span class="st">&#39;Suspense&#39;</span>: Suspense[<span class="st">&#39;duration&#39;</span>],<span class="st">&#39;Adventure&#39;</span>: Adventure[<span class="st">&#39;duration&#39;</span>],<span class="st">&#39;Action&#39;</span>: Action[<span class="st">&#39;duration&#39;</span>],<span class="st">&#39;Horror&#39;</span>:Horror[<span class="st">&#39;duration&#39;</span>]})</span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>PopularGenre, palette<span class="op">=</span><span class="st">&#39;Set1&#39;</span>)</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_37de535575f9437d9dc022e784a858e2/6e396924edc97b939c9fe6929d2baaf0e9354371.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="mLmKH54AJNxE">
+<p>This grap showed a few different trends. The most noticable one is that adventure and drama movies are usually longer than horror and suspense movies. Additionally, horror and suspense movies have very similar runtimes.</p>
+</div>
+<div class="cell markdown" id="o-TWyt8zlKI8">
+<p>I also wanted to see if there is any connection between a movie's genre and its rating. To analyze this, I created four different pie charts that are comparing the four most common genres.</p>
+</div>
+<div class="cell code" data-execution_count="1071" data-colab="{&quot;height&quot;:624,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Feb0ISiclSXA" data-outputId="17c56538-4a85-4168-97f3-8ef8a1ec6240">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>fig, ax<span class="op">=</span> plt.subplots(<span class="dv">2</span>,<span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">12</span>))</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].pie(Drama[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:])</span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">1</span>].pie(Comedy[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:])</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>,<span class="dv">0</span>].pie(Suspense[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:])</span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>,<span class="dv">1</span>].pie(Adventure[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:])</span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>labels<span class="op">=</span>Drama[<span class="st">&quot;rating&quot;</span>].unique()</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>, <span class="dv">0</span>].set_title(<span class="st">&quot;Drama&quot;</span>)</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>, <span class="dv">1</span>].set_title(<span class="st">&quot;Comedy&quot;</span>)</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>, <span class="dv">0</span>].set_title(<span class="st">&quot;Suspense&quot;</span>)</span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>, <span class="dv">1</span>].set_title(<span class="st">&quot;Adventure&quot;</span>)</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>plt.legend(labels)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1071">
+<pre><code>&lt;matplotlib.legend.Legend at 0x7f2d03950790&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_37de535575f9437d9dc022e784a858e2/ad06f5c7e6fe574fb88fd10cdcfb0cf04ca43002.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="8CFYbJELHjtq">
+<p>Based on the information in the graph, there is a strong association between a movie's genre and its rating. For example, a suspense is most likely going ot be rated R, but an adventure is most likely going to be PG-13.</p>
+</div>
+<div class="cell markdown" id="Yt2pppw5K8Bc">
+<p>Lastly, I wanted to see if there is any relationship between the year a movie was released and its genre. To do this, I created a boxplot that compares the release years of each of the six most common genres.</p>
+</div>
+<div class="cell code" data-execution_count="1072" data-colab="{&quot;height&quot;:283,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="JzcRp0xc8Dme" data-outputId="9193a23a-bff6-4b4a-e43f-d026bf060cc5">
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>yearGenre <span class="op">=</span> pd.DataFrame({<span class="st">&#39;Drama&#39;</span>: Drama[<span class="st">&#39;release_year&#39;</span>],<span class="st">&#39;Comedy&#39;</span>: Comedy[<span class="st">&#39;release_year&#39;</span>],<span class="st">&#39;Suspense&#39;</span>: Suspense[<span class="st">&#39;release_year&#39;</span>],<span class="st">&#39;Adventure&#39;</span>: Adventure[<span class="st">&#39;release_year&#39;</span>],<span class="st">&#39;Action&#39;</span>: Action[<span class="st">&#39;release_year&#39;</span>],<span class="st">&#39;Horror&#39;</span>:Horror[<span class="st">&#39;release_year&#39;</span>]})</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>yearGenre, palette<span class="op">=</span><span class="st">&#39;Set1&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1072">
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f2d03ae9110&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_37de535575f9437d9dc022e784a858e2/09ae4663a446b50ec88238c2ef2493d83854a543.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="zGTUGY_d4CZn">
+<p>Based on the information, there is a slight association between a movie's gere and its release year. For example, suspense movies are more likely to come out in recent years.</p>
+</div>
+<div class="cell markdown" id="3vrGA0Rw8QTg">
+<p>Based on the data that I have collected, I believe that I will be able to answer the question if you are able to predict a movie's genre based off of its rutime, rating, and release year. The reason for this is that based on the graphs that I created, movie's with the same genre share different characteristics with eachother. Additionally, this data can be used to predict a new movie's runtime based off of its rating and genre.</p>
+</div>
+</body>
+</html>
