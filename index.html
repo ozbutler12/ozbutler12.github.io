@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>a41bbca83f3f413d96d264cd5b8d0816</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="TE3T9eLOCF8J">
+<p>Project Name: Movie Trends</p>
+<p>By: Owen Butler</p>
+<p>Link for website: <a href="https://github.com/ozbutler12/ozbutler12.github.io/blob/main/Milestone2.html" class="uri">https://github.com/ozbutler12/ozbutler12.github.io/blob/main/Milestone2.html</a></p>
+<p>Link for Github: <a href="https://github.com/ozbutler12/ozbutler12.github.io" class="uri">https://github.com/ozbutler12/ozbutler12.github.io</a></p>
+</div>
+<div class="cell code" id="QamQVsD3-7Jo">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/drive&#39;</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>cd <span class="op">/</span>content<span class="op">/</span>drive<span class="op">/</span>My Drive<span class="op">/</span>Colab Notebooks</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Notes: one link to the github.io link. do not need two</span></span></code></pre></div>
+</div>
+<section id="introduction" class="cell markdown" id="g6QsEPgb-9Du">
+<h1>Introduction</h1>
+</section>
+<div class="cell markdown" id="I2ha-Wpc_QVI">
+<p>For this project, I have decided to analyze movies to determine if there is a way to predict different characteristics of the movie. More specifically, I am going to use a movie's genre, runtime, and rating to predict a movie's gross revenue or box office returns. This information could be very important as it can show what characteristic of a movie has the strongest relationship with a movie's success. As a result, this information is very important for actors as it directly influences how much money they will make, and it influences movie theaters as it can help them to determine which movies they show and which ones they should not.</p>
+</div>
+<section id="collaboration-plan" class="cell markdown" id="A-9UveKvCNW5">
+<h1>Collaboration Plan</h1>
+</section>
+<div class="cell markdown" id="E2HOTKMKCSLJ">
+<p>For this project, I plan on working by myself and using a GitHub repository to store all my information and research. I will also be using Google Drive to help me to stay organized as well. Due to this being an individual project, it will be easy for me to keep track of everything occurring and what needs to be done. I am planning on also using Google Calendar to keep track of project deadlines to ensure that nothing is forgotten about.</p>
+</div>
+<div class="cell markdown" id="K49YkSzoH-rb">
+<hr />
+<h1 id="importing-libraries">Importing Libraries</h1>
+</div>
+<div class="cell code" id="3OlKK4M7IBse">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> ast</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.feature_extraction <span class="im">import</span> DictVectorizer</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsRegressor</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.pipeline <span class="im">import</span> Pipeline</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> cross_val_score</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.core.display <span class="im">import</span> display, HTML</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>display(HTML(<span class="st">&quot;&lt;style&gt;.container { width:95% !important; }&lt;/style&gt;&quot;</span>))</span></code></pre></div>
+</div>
+<div class="cell markdown" id="3OhZY0SiBDwe">
+<hr />
+<h1 id="datasets">Datasets</h1>
+</div>
+<div class="cell markdown" id="GGRDoZXnBLcL">
+<p>In order to predict a movie's rating, I have decided analyze three different datasets. These data sets are from kaggle.com. The data sets are from IMDB, the box office returns of the top 1000 grossing movies, and from Amazon Prime. By analyzing these three datasets, I will be able to analyze over 10,000 different movies.</p>
+</div>
+<div class="cell markdown" id="K2M93EJDsDzN">
+<p>Dataset 1: <a href="https://www.officialdata.org/us/inflation/2022?endYear=1900&amp;amount=1">Inflation (1900 - 2022)</a></p>
+</div>
+<div class="cell markdown" id="wIVhGfnbsShV">
+<p>This dataset contains the inflation rate for each year from 1900 to 2022. This data is going to be used to convert the gross revenue into their current value. It stores the conversion rate for each year's currency to the 1900's dollar.</p>
+</div>
+<div class="cell markdown" id="hRoF53tlEvyf">
+<p>Dataset 2: <a href="https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows">IMDB Movies Dataset</a></p>
+</div>
+<div class="cell markdown" id="lto3MA6IE6Bq">
+<p>This dataset contains the top 1000 rated movies and tv shows on IMDB. This dataset contains a lot of useful information including its release year, certificate (rating), runtime, genre, IMDB_Rating, Meta_Score, and its Gross revenue. This data is also going to be used in the prediction algorithm as well.</p>
+</div>
+<div class="cell markdown" id="f0-teRdtCWXR">
+<p>Dataset 3: <a href="https://www.kaggle.com/datasets/sanjeetsinghnaik/top-1000-highest-grossing-movies">Top 1000 Highest Grossing Movies</a></p>
+</div>
+<div class="cell markdown" id="IwyeaxM4DTjH">
+<p>This dataset contains information about the top 1000 grossing movies of all time. It contains information about its domestic revenue, global revenue, rating, runtime, and its genre. This dataset is going to be used to create a prediction model for a movie's gross revenue by using its genre, runtime and rating.</p>
+</div>
+<div class="cell markdown" id="CpZ3_CyRDpoG">
+<p>Dataset 4: <a href="https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows">Amazon Prime Movies and TV Shows</a></p>
+</div>
+<div class="cell markdown" id="nwbKasr-D79w">
+<p>This dataset contains more than 10,000 different movies and tv-shows that are available on their platform as of mid-2021. It contains a lot of information for each movie or tv show. This includes its cast, director, ratings, release year, duration, and genre. This dataset is going to be used to test the prediction algorithm and I am going to attempt to predict the gross income of the movies in this dataest.</p>
+</div>
+<div class="cell code" id="1zAU69L8_P-q">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>boxOffice_df <span class="op">=</span> pd.read_csv(<span class="vs">r&#39;Data/Highest Holywood Grossing Movies.csv&#39;</span>, encoding<span class="op">=</span><span class="st">&#39;latin-1&#39;</span>) <span class="co">#import box office information </span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>IMDB_df <span class="op">=</span> pd.read_csv(<span class="vs">r&#39;Data/IMDB.csv&#39;</span>) <span class="co">#import IMDB</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>amazon_df <span class="op">=</span> pd.read_csv(<span class="vs">r&#39;Data/amazon.csv&#39;</span>) <span class="co">#import amazon</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>inflation_df <span class="op">=</span> pd.read_csv(<span class="vs">r&#39;Data/inflation_data.csv&#39;</span>) <span class="co">#import inflation</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="sJIrz2FtFfkN">
+<hr />
+<h1 id="extraction-transform-and-load">Extraction, Transform, and Load</h1>
+</div>
+<div class="cell markdown" id="zlHkhw5cGfCP">
+<p>While all of these datasets have similar information, they are all organized in different ways. So to solve this problem, I need to reorganize and change the labels of each dataset. (add a graph or two for each dataset)</p>
+</div>
+<div class="cell markdown" id="vmOPpUYkv9D-">
+<p><strong>Inflation</strong></p>
+</div>
+<div class="cell markdown" id="bXN4FuY_yW5A">
+<p>For this dataset, I made a function that converts the gross revenue from the past, to what it would be in today's currency. This function works by conerting the gross revenue into the 1900 currency, then it changes it to 2022 currency from there.</p>
+</div>
+<div class="cell code" id="8iUJjNpuv_Dn">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> inflationChange(gross,year):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  year<span class="op">=</span>year<span class="op">-</span><span class="dv">1900</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  rate<span class="op">=</span>inflation_df[<span class="st">&quot;amount&quot;</span>][year]</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  oldValue<span class="op">=</span>gross<span class="op">/</span>rate</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  newValue<span class="op">=</span>oldValue<span class="op">*</span><span class="fl">35.48</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> newValue</span></code></pre></div>
+</div>
+<div class="cell markdown" id="w1lZfy57Im-7">
+<p><strong>IMDB</strong></p>
+</div>
+<div class="cell code" id="vB9iqeuEJVfV">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>IMDB_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="MY1WQVjmJmac">
+<p>For this dataset, there are several columns that are not needed in this analysis. This includes the the poster link, IMDB rating, overview, meta score, director, cast, and the number of votes it received. Also, I renamed the columns to make it easier to understand.</p>
+</div>
+<div class="cell code" id="h2khqZakKM-u">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>IMDB_df<span class="op">=</span>IMDB_df.drop(columns <span class="op">=</span> [<span class="st">&quot;Poster_Link&quot;</span>,<span class="st">&quot;IMDB_Rating&quot;</span>,<span class="st">&quot;Overview&quot;</span>,<span class="st">&quot;Meta_score&quot;</span>,<span class="st">&quot;Star1&quot;</span>,	<span class="st">&quot;Star2&quot;</span>,<span class="st">&quot;Star3&quot;</span>,<span class="st">&quot;Star4&quot;</span>,<span class="st">&quot;No_of_Votes&quot;</span>])</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>IMDB_df <span class="op">=</span> IMDB_df.rename(columns<span class="op">=</span>{<span class="st">&#39;Director&#39;</span>:<span class="st">&#39;director&#39;</span>,<span class="st">&#39;Released_Year&#39;</span>: <span class="st">&#39;release_year&#39;</span>,<span class="st">&#39;Genre&#39;</span>:<span class="st">&#39;listed_in&#39;</span>,<span class="st">&#39;Series_Title&#39;</span>:<span class="st">&#39;title&#39;</span>,<span class="st">&#39;Certificate&#39;</span>:<span class="st">&#39;rating&#39;</span>,<span class="st">&quot;Runtime&quot;</span>:<span class="st">&quot;duration&quot;</span>})</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>IMDB_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="U_vKiP-oIsrC">
+<p>This data is currently using the Central Board of Film Certification. In order to use this data, I need to convert it to the United States rating system.</p>
+</div>
+<div class="cell code" id="XOuloiTvJLdZ">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&quot;rating&quot;</span>]<span class="op">=</span>IMDB_df[<span class="st">&quot;rating&quot;</span>].<span class="bu">map</span>({</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;A&quot;</span>: <span class="st">&quot;R&quot;</span>,</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;U&quot;</span>:<span class="st">&quot;PG&quot;</span>,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;UA&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;U/A&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;S&quot;</span>:<span class="st">&quot;NC-17&quot;</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+</div>
+<div class="cell markdown" id="WzrSj8CPOg4O">
+<p>Also, I need to remove any empty values and remove the commas from the gross values.</p>
+</div>
+<div class="cell code" id="5sG8aXJxOqtr">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>IMDB_df<span class="op">=</span>IMDB_df.dropna()</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&#39;Gross&#39;</span>] <span class="op">=</span> IMDB_df[<span class="st">&#39;Gross&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;,&#39;</span>, <span class="st">&#39;&#39;</span>) <span class="co">#Removes ,</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="SQFRIAwhOUAe">
+<p>Next, I need to convert the duration and gross revenue into an integer</p>
+</div>
+<div class="cell code" id="r1f4Q-7bOSBq">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>IMDB_df.dtypes</span></code></pre></div>
+</div>
+<div class="cell code" id="aL5V1QPHOxUA">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&#39;Gross&#39;</span>] <span class="op">=</span> IMDB_df[<span class="st">&#39;Gross&#39;</span>].astype(<span class="bu">int</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&#39;duration&#39;</span>] <span class="op">=</span> IMDB_df[<span class="st">&#39;duration&#39;</span>].<span class="bu">str</span>.replace(<span class="vs">r&#39; min$&#39;</span>, <span class="st">&#39;&#39;</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&quot;duration&quot;</span>]<span class="op">=</span>IMDB_df[<span class="st">&quot;duration&quot;</span>].astype(<span class="bu">float</span>).astype(<span class="bu">int</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="TpeL_mrwVwyB">
+<p>Lastly, I need to adjust the gross revnue for inflation.</p>
+</div>
+<div class="cell code" id="lMpzDWsyV4lE">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&#39;currentGross&#39;</span>]<span class="op">=</span><span class="st">&quot;&quot;</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ind <span class="kw">in</span> IMDB_df.index:</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  gross<span class="op">=</span>IMDB_df[<span class="st">&quot;Gross&quot;</span>][ind]</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  year<span class="op">=</span>IMDB_df[<span class="st">&quot;release_year&quot;</span>][ind]</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  IMDB_df[<span class="st">&#39;currentGross&#39;</span>][ind]<span class="op">=</span>inflationChange(gross,year)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>IMDB_df[<span class="st">&#39;currentGross&#39;</span>] <span class="op">=</span> IMDB_df[<span class="st">&#39;currentGross&#39;</span>].astype(<span class="bu">int</span>)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>IMDB_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="TKXsQcASGDb6">
+<p><strong>Box Office Data</strong></p>
+</div>
+<div class="cell code" id="T5238LDSHU0O">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>boxOffice_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="FE_ntf0DHppM">
+<p>To analyze this data set I need to make several alterations to it. The first one is that I need to remove any columns that are not needed in my analysis. This includes the first column (Unnamed: 0), Movie Info, Distributor, domestic sales and international sales. I also need to remove any movies with missing information and match the column names with the previous dataset.</p>
+</div>
+<div class="cell code" id="Nfk9vfJTFxu2">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>boxOffice_df<span class="op">=</span>boxOffice_df.drop(columns <span class="op">=</span> [<span class="st">&quot;Unnamed: 0&quot;</span>,<span class="st">&quot;Movie Info&quot;</span>,<span class="st">&quot;Distributor&quot;</span>,<span class="st">&quot;Domestic Sales (in $)&quot;</span>,<span class="st">&quot;International Sales (in $)&quot;</span>])</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>boxOffice_df <span class="op">=</span> boxOffice_df.rename(columns<span class="op">=</span>{<span class="st">&#39;Title&#39;</span>:<span class="st">&#39;title&#39;</span>,<span class="st">&#39;Release Date&#39;</span>:<span class="st">&#39;release_year&#39;</span>,<span class="st">&#39;World Sales (in $)&#39;</span>:<span class="st">&#39;Gross&#39;</span>,<span class="st">&#39;Genre&#39;</span>:<span class="st">&#39;listed_in&#39;</span>,<span class="st">&#39;Movie Runtime&#39;</span>:<span class="st">&#39;duration&#39;</span>,<span class="st">&#39;License&#39;</span>:<span class="st">&#39;rating&#39;</span>})</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>boxOffice_df<span class="op">=</span>boxOffice_df.dropna()</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>boxOffice_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="T5TusxoNIXEj">
+<p>Also, I need to reformat the release_year column to only have the year, instead of the entire date and re-write the listed_in column to be a string instead of an array.</p>
+</div>
+<div class="cell code" id="lz19wDmfMEK3">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>boxOffice_df[<span class="st">&#39;release_year&#39;</span>] <span class="op">=</span> boxOffice_df[<span class="st">&#39;release_year&#39;</span>].<span class="bu">str</span>[<span class="op">-</span><span class="dv">4</span>:] <span class="co">#Makes it the year only</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>boxOffice_df[<span class="st">&#39;listed_in&#39;</span>] <span class="op">=</span> boxOffice_df[<span class="st">&#39;listed_in&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;[&#39;</span>, <span class="st">&#39;&#39;</span>) <span class="co">#Removes [</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>boxOffice_df[<span class="st">&#39;listed_in&#39;</span>] <span class="op">=</span> boxOffice_df[<span class="st">&#39;listed_in&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;</span><span class="ch">\&#39;</span><span class="st">&#39;</span>, <span class="st">&#39;&#39;</span>) <span class="co">#Removes &#39;</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>boxOffice_df[<span class="st">&#39;listed_in&#39;</span>] <span class="op">=</span> boxOffice_df[<span class="st">&#39;listed_in&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;]&#39;</span>, <span class="st">&#39;&#39;</span>) <span class="co">#Removes ]</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>boxOffice_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="xh0KUL5uOBL7">
+<p>Lastly, I need to remove the year from the title column and also make the duration and release year an integer that has how long the movie is in minutes. I also converted the gross revenue into current dollar equivalence.</p>
+</div>
+<div class="cell code" id="z5-JQ_twORe7">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>boxOffice_df[<span class="st">&#39;title&#39;</span>] <span class="op">=</span> boxOffice_df[<span class="st">&#39;title&#39;</span>].<span class="bu">str</span>[:<span class="op">-</span><span class="dv">6</span>] <span class="co">#Removes the year from the title column</span></span></code></pre></div>
+</div>
+<div class="cell code" id="ca1yHUCfQTCH">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> durationConvert(time):</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  hour<span class="op">=</span>time[<span class="dv">0</span>:time.find(<span class="st">&#39;hr&#39;</span>)<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  minutes<span class="op">=</span>time[time.find(<span class="st">&#39;hr&#39;</span>)<span class="op">+</span><span class="dv">3</span>:time.find(<span class="st">&#39;min&#39;</span>)]</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(hour<span class="op">==</span><span class="st">&quot;&quot;</span>):</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    hour<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(minutes<span class="op">==</span><span class="st">&quot;&quot;</span>):</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    minutes<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>  runtime <span class="op">=</span> <span class="bu">int</span>(<span class="bu">float</span>(hour))<span class="op">*</span><span class="dv">60</span><span class="op">+</span> <span class="bu">int</span>(<span class="bu">float</span>(minutes))</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> runtime</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ind <span class="kw">in</span> boxOffice_df.index:</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>  boxOffice_df[<span class="st">&quot;duration&quot;</span>][ind]<span class="op">=</span>durationConvert(boxOffice_df[<span class="st">&quot;duration&quot;</span>][ind])</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>boxOffice_df[<span class="st">&quot;release_year&quot;</span>]<span class="op">=</span>boxOffice_df[<span class="st">&quot;release_year&quot;</span>].astype(<span class="bu">int</span>)</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>boxOffice_df[<span class="st">&#39;currentGross&#39;</span>]<span class="op">=</span><span class="st">&quot;&quot;</span></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ind <span class="kw">in</span> boxOffice_df.index:</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>  gross<span class="op">=</span>boxOffice_df[<span class="st">&quot;Gross&quot;</span>][ind]</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>  year<span class="op">=</span>boxOffice_df[<span class="st">&quot;release_year&quot;</span>][ind]</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>  boxOffice_df[<span class="st">&#39;currentGross&#39;</span>][ind]<span class="op">=</span>inflationChange(gross,year)</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>boxOffice_df[<span class="st">&#39;currentGross&#39;</span>] <span class="op">=</span> boxOffice_df[<span class="st">&#39;currentGross&#39;</span>].astype(<span class="bu">int</span>)</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>boxOffice_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="7rG0xuvXHdmy">
+<p><strong>Amazon Prime</strong></p>
+</div>
+<div class="cell code" id="ZtyFUu0fHtO6">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>amazon_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="lGkz4klEHgnr">
+<p>In order to analyze the ratings of the movies in this dataset, I need to convert the ratings to the American rating system and remove any columns that are not needed.</p>
+</div>
+<div class="cell code" id="RTQ4hgbYHf98">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>amazon_df<span class="op">=</span>amazon_df.drop(columns <span class="op">=</span> [<span class="st">&quot;show_id&quot;</span>,<span class="st">&quot;cast&quot;</span>,<span class="st">&quot;country&quot;</span>,<span class="st">&quot;date_added&quot;</span>,<span class="st">&quot;description&quot;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>amazon_df[<span class="st">&quot;rating&quot;</span>]<span class="op">=</span>amazon_df[<span class="st">&quot;rating&quot;</span>].<span class="bu">map</span>({</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;All_Ages&quot;</span>: <span class="st">&quot;G&quot;</span>,</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;ALL&quot;</span>:<span class="st">&quot;G&quot;</span>,</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;7+&quot;</span>:<span class="st">&quot;PG&quot;</span>,</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;13+&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;16+&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;18+&quot;</span>:<span class="st">&quot;R&quot;</span>,</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;16&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;AGES_16&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;AGES_16_&quot;</span>:<span class="st">&quot;PG-13&quot;</span>,</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;AGES_18&quot;</span>:<span class="st">&quot;R&quot;</span>,</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;AGES_18_&quot;</span>:<span class="st">&quot;R&quot;</span>,</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;NOT_RATE&quot;</span>:<span class="st">&quot;UNRATED&quot;</span></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>amazon_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="1Oge-zcyTZp8">
+<p>I also need to remoe any tv shows from the dataset, and any empty values.</p>
+</div>
+<div class="cell code" id="fG0JxdamTeQd">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>amazon_df<span class="op">=</span>amazon_df.dropna()</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>amazon_df<span class="op">=</span>amazon_df[amazon_df[<span class="st">&#39;type&#39;</span>]<span class="op">==</span><span class="st">&#39;Movie&#39;</span>]</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>amazon_df<span class="op">=</span>amazon_df.drop(columns <span class="op">=</span> [<span class="st">&quot;type&quot;</span>])</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>amazon_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="hb_-qZJ8yV-T">
+<p>Lastly, I need to convert the duration to be an integer of the runtime.</p>
+</div>
+<div class="cell code" id="5JEWzbCoyeaH">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>amazon_df[<span class="st">&#39;duration&#39;</span>] <span class="op">=</span> amazon_df[<span class="st">&#39;duration&#39;</span>].<span class="bu">str</span>.replace(<span class="vs">r&#39; min$&#39;</span>, <span class="st">&#39;&#39;</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>amazon_df[<span class="st">&quot;duration&quot;</span>]<span class="op">=</span>amazon_df[<span class="st">&quot;duration&quot;</span>].astype(<span class="bu">float</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>amazon_df.head()</span></code></pre></div>
+</div>
+<section id="merging-the-data" class="cell markdown" id="sKcoYaZfJYc7">
+<h1>Merging the Data</h1>
+</section>
+<div class="cell markdown" id="xWoOyxJyJkN7">
+<p>In order to make any analysis over the entirety of the movie industry I needed to merge my dataframes. I decided to merge the box office return and the IMDB datasets in order to check the relationship between a movie's revenue and its genre, runtime, and rating. Additionally, there is more than 1,000 movies in this new dataset. After merging the data, it leaves me with two dataframes. One that contains all of IMDB's and the box office movies, and one that contains all of Amazon Prime's movies.</p>
+</div>
+<div class="cell code" id="ABzAVBvWJ_c3">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>movies_df<span class="op">=</span>pd.concat([IMDB_df, boxOffice_df],axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>movies_df[<span class="st">&#39;duration&#39;</span>]<span class="op">=</span>movies_df[<span class="st">&#39;duration&#39;</span>].astype(<span class="bu">int</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>movies_df.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="tk0goPS8KgrS">
+<p>After merging the data, I realized that the genre's were stored as a list in the column. So to analyze the data, I need to make it so each movie only has a single genre that corresponds with it. To do this, I created copies of each movie, with each one having only one of its corresponding genre. I did this with both of my dataframes.</p>
+</div>
+<div class="cell code" id="UopvFMv3MXXA">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>movies_df[<span class="st">&quot;listed_in_new&quot;</span>] <span class="op">=</span> movies_df[<span class="st">&quot;listed_in&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x.split(<span class="st">&quot;,&quot;</span>))</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>exploded_movies <span class="op">=</span> movies_df.explode(<span class="st">&quot;listed_in_new&quot;</span>).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>] <span class="op">=</span> exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&quot; &quot;</span>, <span class="st">&quot;&quot;</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>exploded_movies.head()</span></code></pre></div>
+</div>
+<div class="cell code" id="cuXBj-xrVW4L">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>amazon_df[<span class="st">&quot;listed_in_new&quot;</span>] <span class="op">=</span> amazon_df[<span class="st">&quot;listed_in&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x.split(<span class="st">&quot;,&quot;</span>))</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>exploded_amazon <span class="op">=</span> amazon_df.explode(<span class="st">&quot;listed_in_new&quot;</span>).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>exploded_amazon[<span class="st">&#39;listed_in_new&#39;</span>] <span class="op">=</span> exploded_amazon[<span class="st">&#39;listed_in_new&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&quot; &quot;</span>, <span class="st">&quot;&quot;</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>exploded_amazon.head()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="LOsu4YQZJyYN">
+<hr />
+<h1 id="exploratory-data-analysis">Exploratory Data Analysis</h1>
+</div>
+<div class="cell markdown" id="ebUVhhLbSocq">
+<p>Now that the data is organized into one dataframe, I am able to look for different patterns that it has. However, the first thing I need to do is create four new dataframes. Each of these dataframes will contain one quarter of the data and it will be sorted by the current gross revenue. For example, the third quarter dataframe will contain movies with a current gross revenue between 313,166,900 and 556,023,900.</p>
+</div>
+<div class="cell code" id="3UsKi5NLseOq">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>movies_df[<span class="st">&quot;currentGross&quot;</span>].describe()</span></code></pre></div>
+</div>
+<div class="cell code" id="E85Tf2-4Kfu7">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>Half1<span class="op">=</span>movies_df[movies_df[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&lt;=</span> <span class="fl">3.131669e+08</span>]</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>Half2<span class="op">=</span>movies_df[movies_df[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&gt;=</span> <span class="fl">3.131669e+08</span>]</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>Q1<span class="op">=</span>Half1[Half1[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&lt;</span> <span class="fl">1.447342e+08</span>]</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>Q2<span class="op">=</span>Half1[Half1[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&gt;</span> <span class="fl">1.447342e+08</span>]</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>Q3<span class="op">=</span>Half2[Half2[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&lt;</span> <span class="fl">5.560239e+08</span>]</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>Q4<span class="op">=</span>Half2[Half2[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&gt;</span> <span class="fl">5.560239e+08</span>]</span></code></pre></div>
+</div>
+<div class="cell markdown" id="fdSvQlBIspGE">
+<p>After doing this, I am able to compare the ratings of each movie. By doing this, I will be able to see if a specific which ratings occur more frequently in each quartile of the movie's current gross revenue.</p>
+</div>
+<div class="cell code" id="XYOjsQ15K5c_">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>ratings<span class="op">=</span>movies_df[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:]</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>ratings1<span class="op">=</span>Q1[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:]</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>ratings2<span class="op">=</span>Q2[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:]</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>ratings3<span class="op">=</span>Q3[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:]</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>ratings4<span class="op">=</span>Q4[<span class="st">&quot;rating&quot;</span>].value_counts().iloc[:]</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>fig, ax<span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">5</span>, figsize<span class="op">=</span>(<span class="dv">30</span>,<span class="dv">6</span>))</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Movie Ratings&#39;</span>, fontsize<span class="op">=</span><span class="dv">22</span>)</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].pie(ratings1, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].pie(ratings2, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].pie(ratings3, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].pie(ratings4, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].pie(ratings, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>labels<span class="op">=</span>movies_df[<span class="st">&quot;rating&quot;</span>].unique()</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&quot;Quarter 1&quot;</span>)</span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&quot;Quarter 2&quot;</span>)</span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">&quot;Quarter 3&quot;</span>)</span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_title(<span class="st">&quot;Quarter 4&quot;</span>)</span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].set_title(<span class="st">&quot;All Movies&quot;</span>)</span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a>plt.legend(labels,bbox_to_anchor<span class="op">=</span>(<span class="fl">1.0</span>, <span class="fl">1.0</span>))</span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a>utopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="R4v85V4JtGLg">
+<p>Based on this information, it seems that rated R movies are typially more successful than other genres. This is shown through the amount of rated R movies increasing through each quarter. Addirionally, it is interesting that the percent of PG movies decrease as gross revenue increase.</p>
+</div>
+<div class="cell markdown" id="8cj-V55EtK8d">
+<p>Additionally, I am able to see if a movie that is more successful and makes more money typically has a longer or shorter duration. In order to do this, I created a distrubtion plot that shows the frequency of a movies runtime in each quartile of a movie's gross revenue.</p>
+</div>
+<div class="cell code" id="41gpV0f5SAtz">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>duration<span class="op">=</span>movies_df[<span class="st">&quot;duration&quot;</span>]</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>duration1<span class="op">=</span>Q1[<span class="st">&quot;duration&quot;</span>]</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>duration2<span class="op">=</span>Q2[<span class="st">&quot;duration&quot;</span>]</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>duration3<span class="op">=</span>Q3[<span class="st">&quot;duration&quot;</span>]</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>duration4<span class="op">=</span>Q4[<span class="st">&quot;duration&quot;</span>]</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>fig, ax<span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">4</span>, figsize<span class="op">=</span>(<span class="dv">25</span>,<span class="dv">5</span>))</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Movie Runtime&#39;</span>, fontsize<span class="op">=</span><span class="dv">22</span>)</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>sns.distplot(duration1, ax<span class="op">=</span>ax[<span class="dv">0</span>])</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>sns.distplot(duration2, ax<span class="op">=</span>ax[<span class="dv">1</span>])</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>sns.distplot(duration3, ax<span class="op">=</span>ax[<span class="dv">2</span>])</span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>sns.distplot(duration4, ax<span class="op">=</span>ax[<span class="dv">3</span>])</span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>labels<span class="op">=</span>movies_df[<span class="st">&quot;rating&quot;</span>].unique()</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&quot;Quarter 1&quot;</span>)</span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&quot;Quarter 2&quot;</span>)</span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">&quot;Quarter 3&quot;</span>)</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_title(<span class="st">&quot;Quarter 4&quot;</span>)</span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_xlabel(<span class="st">&quot;Runtime&quot;</span>)</span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_ylabel(<span class="st">&quot;Frequency of Movies&quot;</span>)</span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_xlabel(<span class="st">&quot;Release Year&quot;</span>)</span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_ylabel(<span class="st">&quot;Runtime&quot;</span>)</span>
+<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_xlabel(<span class="st">&quot;Release Year&quot;</span>)</span>
+<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_ylabel(<span class="st">&quot;Runtime&quot;</span>)</span>
+<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_xlabel(<span class="st">&quot;Release Year&quot;</span>)</span>
+<span id="cb27-28"><a href="#cb27-28" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_ylabel(<span class="st">&quot;Runtime&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="OaubYr85tUjR">
+<p>This graph shows that the runtime has a slight influence on a movies box office performance. This is shown by the average distribution on each graph moving slightly towards a longer movie as the gross boxoffice revenue increases.</p>
+</div>
+<div class="cell markdown" id="ecsR7K2rFTL8">
+
+</div>
+<div class="cell code" id="F5TMgHM0Jh--">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>release_year<span class="op">=</span>movies_df.groupby(<span class="st">&quot;release_year&quot;</span>, as_index<span class="op">=</span><span class="va">False</span>)[<span class="st">&quot;currentGross&quot;</span>].mean()</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>release_year1<span class="op">=</span>Q1.groupby(<span class="st">&quot;release_year&quot;</span>, as_index<span class="op">=</span><span class="va">False</span>)[<span class="st">&quot;currentGross&quot;</span>].mean()</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>release_year2<span class="op">=</span>Q2.groupby(<span class="st">&quot;release_year&quot;</span>, as_index<span class="op">=</span><span class="va">False</span>)[<span class="st">&quot;currentGross&quot;</span>].mean()</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>release_year3<span class="op">=</span>Q3.groupby(<span class="st">&quot;release_year&quot;</span>, as_index<span class="op">=</span><span class="va">False</span>)[<span class="st">&quot;currentGross&quot;</span>].mean()</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>release_year4<span class="op">=</span>Q4.groupby(<span class="st">&quot;release_year&quot;</span>, as_index<span class="op">=</span><span class="va">False</span>)[<span class="st">&quot;currentGross&quot;</span>].mean()</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>a1, b1 <span class="op">=</span> np.polyfit(release_year1[<span class="st">&quot;release_year&quot;</span>], release_year1[<span class="st">&quot;currentGross&quot;</span>], <span class="dv">1</span>)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>a2, b2 <span class="op">=</span> np.polyfit(release_year2[<span class="st">&quot;release_year&quot;</span>], release_year2[<span class="st">&quot;currentGross&quot;</span>], <span class="dv">1</span>)</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>a3, b3 <span class="op">=</span> np.polyfit(release_year3[<span class="st">&quot;release_year&quot;</span>], release_year3[<span class="st">&quot;currentGross&quot;</span>], <span class="dv">1</span>)</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>a4, b4 <span class="op">=</span> np.polyfit(release_year4[<span class="st">&quot;release_year&quot;</span>], release_year4[<span class="st">&quot;currentGross&quot;</span>], <span class="dv">1</span>)</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>a, b <span class="op">=</span> np.polyfit(release_year[<span class="st">&quot;release_year&quot;</span>], release_year[<span class="st">&quot;currentGross&quot;</span>], <span class="dv">1</span>)</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>fig, ax<span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">5</span>, figsize<span class="op">=</span>(<span class="dv">25</span>,<span class="dv">5</span>))</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Movie Release Year&#39;</span>, fontsize<span class="op">=</span><span class="dv">22</span>)</span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].scatter(release_year1[<span class="st">&quot;release_year&quot;</span>],release_year1[<span class="st">&quot;currentGross&quot;</span>])</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].scatter(release_year2[<span class="st">&quot;release_year&quot;</span>],release_year2[<span class="st">&quot;currentGross&quot;</span>])</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].scatter(release_year3[<span class="st">&quot;release_year&quot;</span>],release_year3[<span class="st">&quot;currentGross&quot;</span>])</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].scatter(release_year4[<span class="st">&quot;release_year&quot;</span>],release_year4[<span class="st">&quot;currentGross&quot;</span>])</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].scatter(release_year[<span class="st">&quot;release_year&quot;</span>],release_year[<span class="st">&quot;currentGross&quot;</span>])</span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].plot(release_year1[<span class="st">&quot;release_year&quot;</span>], a1<span class="op">*</span>release_year1[<span class="st">&quot;release_year&quot;</span>]<span class="op">+</span>b1) </span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].plot(release_year2[<span class="st">&quot;release_year&quot;</span>], a2<span class="op">*</span>release_year2[<span class="st">&quot;release_year&quot;</span>]<span class="op">+</span>b2) </span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].plot(release_year3[<span class="st">&quot;release_year&quot;</span>], a3<span class="op">*</span>release_year3[<span class="st">&quot;release_year&quot;</span>]<span class="op">+</span>b3) </span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].plot(release_year4[<span class="st">&quot;release_year&quot;</span>], a4<span class="op">*</span>release_year4[<span class="st">&quot;release_year&quot;</span>]<span class="op">+</span>b4) </span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].plot(release_year[<span class="st">&quot;release_year&quot;</span>], a<span class="op">*</span>release_year[<span class="st">&quot;release_year&quot;</span>]<span class="op">+</span>b) </span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&quot;Quarter 1&quot;</span>)</span>
+<span id="cb28-28"><a href="#cb28-28" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&quot;Quarter 2&quot;</span>)</span>
+<span id="cb28-29"><a href="#cb28-29" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">&quot;Quarter 3&quot;</span>)</span>
+<span id="cb28-30"><a href="#cb28-30" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_title(<span class="st">&quot;Quarter 4&quot;</span>)</span>
+<span id="cb28-31"><a href="#cb28-31" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].set_title(<span class="st">&quot;All Movies&quot;</span>)</span>
+<span id="cb28-32"><a href="#cb28-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-33"><a href="#cb28-33" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_xlabel(<span class="st">&quot;Release Year&quot;</span>)</span>
+<span id="cb28-34"><a href="#cb28-34" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_ylabel(<span class="st">&quot;Gross Revenue (in millions)&quot;</span>)</span>
+<span id="cb28-35"><a href="#cb28-35" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_xlabel(<span class="st">&quot;Release Year&quot;</span>)</span>
+<span id="cb28-36"><a href="#cb28-36" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_ylabel(<span class="st">&quot;Gross Revenue (in millions)&quot;</span>)</span>
+<span id="cb28-37"><a href="#cb28-37" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_xlabel(<span class="st">&quot;Release Year&quot;</span>)</span>
+<span id="cb28-38"><a href="#cb28-38" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_ylabel(<span class="st">&quot;Gross Revenue (in millions)&quot;</span>)</span>
+<span id="cb28-39"><a href="#cb28-39" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_xlabel(<span class="st">&quot;Release Year&quot;</span>)</span>
+<span id="cb28-40"><a href="#cb28-40" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_ylabel(<span class="st">&quot;Gross Revenue (in billions)&quot;</span>)</span>
+<span id="cb28-41"><a href="#cb28-41" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].set_xlabel(<span class="st">&quot;Release Year&quot;</span>)</span>
+<span id="cb28-42"><a href="#cb28-42" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].set_ylabel(<span class="st">&quot;Gross Revenue (in billions)&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" id="cyzLjlsOQ83a">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>exploded_movies_new <span class="op">=</span> exploded_movies[exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>].isin(exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>].value_counts()[:<span class="dv">5</span>].index.tolist())]</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>Half1<span class="op">=</span>exploded_movies_new[exploded_movies_new[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&lt;=</span> <span class="fl">3.131669e+08</span>]</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>Half2<span class="op">=</span>exploded_movies_new[exploded_movies_new[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&gt;=</span> <span class="fl">3.131669e+08</span>]</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>eQ1<span class="op">=</span>Half1[Half1[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&lt;</span> <span class="fl">1.447342e+08</span>]</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>eQ2<span class="op">=</span>Half1[Half1[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&gt;</span> <span class="fl">1.447342e+08</span>]</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>eQ3<span class="op">=</span>Half2[Half2[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&lt;</span> <span class="fl">5.560239e+08</span>]</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>eQ4<span class="op">=</span>Half2[Half2[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&gt;</span> <span class="fl">5.560239e+08</span>]</span></code></pre></div>
+</div>
+<div class="cell code" id="_I7h3qtnWSrA">
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>fig, ax<span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">5</span>, figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">5</span>))</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Top 5 Genres&#39;</span>, fontsize<span class="op">=</span><span class="dv">22</span>)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].pie(eQ1[<span class="st">&quot;listed_in_new&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].pie(eQ2[<span class="st">&quot;listed_in_new&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].pie(eQ3[<span class="st">&quot;listed_in_new&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].pie(eQ4[<span class="st">&quot;listed_in_new&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].pie(exploded_movies_new[<span class="st">&quot;listed_in_new&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>labels<span class="op">=</span>exploded_movies_new[<span class="st">&quot;listed_in_new&quot;</span>].unique()</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&quot;Quarter 1&quot;</span>)</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&quot;Quarter 2&quot;</span>)</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">&quot;Quarter 3&quot;</span>)</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_title(<span class="st">&quot;Quarter 4&quot;</span>)</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].set_title(<span class="st">&quot;All Movies&quot;</span>)</span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>plt.legend(labels,bbox_to_anchor<span class="op">=</span>(<span class="fl">1.0</span>, <span class="fl">1.0</span>))</span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>utopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span></span></code></pre></div>
+</div>
+<div class="cell code" id="gwrrvJ1ErGBY">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>movies_new <span class="op">=</span> movies_df[movies_df[<span class="st">&#39;director&#39;</span>].isin(movies_df[<span class="st">&#39;director&#39;</span>].value_counts()[:<span class="dv">10</span>].index.tolist())]</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>Half1<span class="op">=</span>movies_new[movies_new[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&lt;=</span> <span class="fl">3.131669e+08</span>]</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>Half2<span class="op">=</span>movies_new[movies_new[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&gt;=</span> <span class="fl">3.131669e+08</span>]</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>dQ1<span class="op">=</span>Half1[Half1[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&lt;</span> <span class="fl">1.447342e+08</span>]</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>dQ2<span class="op">=</span>Half1[Half1[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&gt;</span> <span class="fl">1.447342e+08</span>]</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>dQ3<span class="op">=</span>Half2[Half2[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&lt;</span> <span class="fl">5.560239e+08</span>]</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>dQ4<span class="op">=</span>Half2[Half2[<span class="st">&quot;currentGross&quot;</span>]<span class="op">&gt;</span> <span class="fl">5.560239e+08</span>]</span></code></pre></div>
+</div>
+<div class="cell code" id="v8Q0qhPgrP3q">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>fig, ax<span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">5</span>, figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">5</span>))</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Top 10 Directors&#39;</span>, fontsize<span class="op">=</span><span class="dv">22</span>)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].pie(dQ1[<span class="st">&quot;director&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].pie(dQ2[<span class="st">&quot;director&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].pie(dQ3[<span class="st">&quot;director&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].pie(dQ4[<span class="st">&quot;director&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].pie(movies_new[<span class="st">&quot;director&quot;</span>].value_counts().iloc[:], autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>labels<span class="op">=</span>movies_new[<span class="st">&quot;director&quot;</span>].unique()</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&quot;Quarter 1&quot;</span>)</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&quot;Quarter 2&quot;</span>)</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">&quot;Quarter 3&quot;</span>)</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">3</span>].set_title(<span class="st">&quot;Quarter 4&quot;</span>)</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">4</span>].set_title(<span class="st">&quot;All Movies&quot;</span>)</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>plt.legend(labels,bbox_to_anchor<span class="op">=</span>(<span class="fl">1.0</span>, <span class="fl">1.0</span>))</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>utopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span></span></code></pre></div>
+</div>
+<div class="cell code" id="cKvjD7JPr4e2">
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>fig, ax<span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">8</span>))</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>Spielberg<span class="op">=</span>movies_df[movies_df[<span class="st">&#39;director&#39;</span>]<span class="op">==</span><span class="st">&#39;Steven Spielberg&#39;</span>]</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>Scorsese<span class="op">=</span>movies_df[movies_df[<span class="st">&#39;director&#39;</span>]<span class="op">==</span><span class="st">&#39;Martin Scorsese&#39;</span>]</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>Nolan<span class="op">=</span>movies_df[movies_df[<span class="st">&#39;director&#39;</span>]<span class="op">==</span><span class="st">&#39;Christopher Nolan&#39;</span>]</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>Hitchcock<span class="op">=</span>movies_df[movies_df[<span class="st">&#39;director&#39;</span>]<span class="op">==</span><span class="st">&#39;Alfred Hitchcock&#39;</span>]</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>Fincher<span class="op">=</span>movies_df[movies_df[<span class="st">&#39;director&#39;</span>]<span class="op">==</span><span class="st">&#39;David Fincher&#39;</span>]</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>Kubrick<span class="op">=</span>movies_df[movies_df[<span class="st">&#39;director&#39;</span>]<span class="op">==</span><span class="st">&#39;Stanley Kubrick&#39;</span>]</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>PopularDirector <span class="op">=</span> pd.DataFrame({<span class="st">&#39;Steven Spielberg&#39;</span>: Spielberg[<span class="st">&#39;currentGross&#39;</span>],</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>                             <span class="st">&#39;Martin Scorsese&#39;</span>: Scorsese[<span class="st">&#39;currentGross&#39;</span>],</span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>                             <span class="st">&#39;Christopher Nolan&#39;</span>: Nolan[<span class="st">&#39;currentGross&#39;</span>],</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>                             <span class="st">&#39;Alfred Hitchcock&#39;</span>: Hitchcock[<span class="st">&#39;currentGross&#39;</span>],</span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>                             <span class="st">&#39;David Fincher&#39;</span>: Fincher[<span class="st">&#39;currentGross&#39;</span>],</span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>                             <span class="st">&#39;Stanley Kubrick&#39;</span>:Kubrick[<span class="st">&#39;currentGross&#39;</span>]})</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">&quot;Gross Revenue (in billions)&quot;</span>)</span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>PopularDirector, palette<span class="op">=</span><span class="st">&#39;Set1&#39;</span>, ax<span class="op">=</span>ax)</span></code></pre></div>
+</div>
+<div class="cell code" id="ZjnxkYsMpia0">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>director_exploded_movies<span class="op">=</span> exploded_movies[exploded_movies[<span class="st">&#39;director&#39;</span>].isin(exploded_movies[<span class="st">&#39;director&#39;</span>].value_counts()[:<span class="dv">4</span>].index.tolist())]</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>director_exploded_movies<span class="op">=</span>director_exploded_movies.drop(columns <span class="op">=</span> [<span class="st">&#39;title&#39;</span>,<span class="st">&#39;listed_in&#39;</span>,<span class="st">&#39;listed_in_new&#39;</span>,<span class="st">&#39;rating&#39;</span>])</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>director_exploded_movies<span class="op">=</span>pd.get_dummies(director_exploded_movies)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>director_exploded_movies<span class="op">=</span>director_exploded_movies.corr()</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>rating_exploded_movies<span class="op">=</span>exploded_movies.drop(columns <span class="op">=</span> [<span class="st">&#39;title&#39;</span>,<span class="st">&#39;listed_in&#39;</span>,<span class="st">&#39;listed_in_new&#39;</span>,<span class="st">&#39;director&#39;</span>])</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>rating_exploded_movies<span class="op">=</span>pd.get_dummies(rating_exploded_movies)</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>rating_exploded_movies<span class="op">=</span>rating_exploded_movies.corr()</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>genre_exploded_movies<span class="op">=</span> exploded_movies[exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>].isin(exploded_movies[<span class="st">&#39;listed_in_new&#39;</span>].value_counts()[:<span class="dv">4</span>].index.tolist())]</span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>genre_exploded_movies<span class="op">=</span>genre_exploded_movies.drop(columns <span class="op">=</span> [<span class="st">&#39;title&#39;</span>,<span class="st">&#39;listed_in&#39;</span>,<span class="st">&#39;director&#39;</span>,<span class="st">&#39;rating&#39;</span>])</span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>genre_exploded_movies<span class="op">=</span>pd.get_dummies(genre_exploded_movies)</span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>genre_exploded_movies<span class="op">=</span>genre_exploded_movies.corr()</span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span>plt.subplots(<span class="dv">1</span>,<span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">30</span>,<span class="dv">5</span>))</span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>sns.heatmap(director_exploded_movies, annot<span class="op">=</span><span class="va">True</span>,ax<span class="op">=</span>ax[<span class="dv">0</span>])</span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a>sns.heatmap(rating_exploded_movies, annot<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">1</span>])</span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a>sns.heatmap(genre_exploded_movies, annot<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax[<span class="dv">2</span>])</span>
+<span id="cb34-19"><a href="#cb34-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-20"><a href="#cb34-20" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&quot;Directors&quot;</span>)</span>
+<span id="cb34-21"><a href="#cb34-21" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&quot;Rating&quot;</span>)</span>
+<span id="cb34-22"><a href="#cb34-22" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">2</span>].set_title(<span class="st">&quot;Genre&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="H3unfC5UmhQa">
+<hr />
+<h1 id="prediction-model">Prediction Model</h1>
+</div>
+<div class="cell markdown" id="TmHcoU9omnEs">
+<p>Based on the information above, there is a relationship between a movie's rating, genre, release year, and runtime, and its gross revenue. As a result, it is possible to create a model that can predict a movie's gross revenue with these characteristics. To do this I am going to use a K Nearest Neighbors function.</p>
+</div>
+<div class="cell markdown" id="1HdToDCCuNvv">
+<p>When using this model for forecasting, I need to decide how many neighbors I should use. To do this I used a 15-fold cross vaidation and compared its mean absolute error. By doing this I learned that the best number for K is 2.</p>
+</div>
+<div class="cell code" id="Iis3cC-TauXM">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>exploded_movies<span class="op">=</span>exploded_movies.dropna()</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [<span class="st">&quot;duration&quot;</span>, <span class="st">&quot;release_year&quot;</span>,<span class="st">&quot;director&quot;</span>,<span class="st">&quot;rating&quot;</span>,<span class="st">&quot;listed_in_new&quot;</span>]</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>X_train_dict <span class="op">=</span> exploded_movies[features].to_dict(orient<span class="op">=</span><span class="st">&quot;records&quot;</span>)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>X_dict <span class="op">=</span> exploded_movies[features].to_dict(orient<span class="op">=</span><span class="st">&quot;records&quot;</span>)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>y<span class="op">=</span>exploded_movies[<span class="st">&quot;currentGross&quot;</span>]</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>vec <span class="op">=</span> DictVectorizer(sparse<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>vec.fit(X_train_dict)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> vec.transform(X_train_dict)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>scaler.fit(X_train)</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> KNeighborsRegressor(n_neighbors<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>pipeline <span class="op">=</span> Pipeline([(<span class="st">&quot;vectorizer&quot;</span>, vec), (<span class="st">&quot;scaler&quot;</span>, scaler), (<span class="st">&quot;fit&quot;</span>, model)])</span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>scores <span class="op">=</span> cross_val_score(pipeline, X_dict, y, cv<span class="op">=</span><span class="dv">15</span>, scoring<span class="op">=</span><span class="st">&quot;neg_mean_absolute_error&quot;</span>)</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>vec <span class="op">=</span> DictVectorizer(sparse<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a><span class="co"># calculates estimate of test error based on 15-fold cross validation</span></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_cv_error(k):</span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> KNeighborsRegressor(n_neighbors<span class="op">=</span>k)</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>    pipeline <span class="op">=</span> Pipeline([(<span class="st">&quot;vectorizer&quot;</span>, vec), (<span class="st">&quot;scaler&quot;</span>, scaler), (<span class="st">&quot;fit&quot;</span>, model)])</span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>    mae <span class="op">=</span> np.absolute(<span class="op">-</span>cross_val_score(</span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>        pipeline, X_dict, y, </span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a>        cv<span class="op">=</span><span class="dv">15</span>, scoring<span class="op">=</span><span class="st">&quot;neg_mean_absolute_error&quot;</span></span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a>    )).mean()</span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> mae</span>
+<span id="cb35-25"><a href="#cb35-25" aria-hidden="true" tabindex="-1"></a>ks <span class="op">=</span> pd.Series(<span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">51</span>))</span>
+<span id="cb35-26"><a href="#cb35-26" aria-hidden="true" tabindex="-1"></a>ks.index <span class="op">=</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">51</span>)</span>
+<span id="cb35-27"><a href="#cb35-27" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> ks.<span class="bu">apply</span>(get_cv_error)</span>
+<span id="cb35-28"><a href="#cb35-28" aria-hidden="true" tabindex="-1"></a>ax.argmin()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="lMHB8bAcy3GV">
+<p>After this, I created a function that can forecast a movie's current gross revenue by using its duration, release year, rating, genre, and director.</p>
+</div>
+<div class="cell code" id="52R7q_8fzDM0">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> prediction(duration, release_year, rating, listed_in_new, director):</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Define the features.</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  features <span class="op">=</span> [<span class="st">&quot;duration&quot;</span>, <span class="st">&quot;release_year&quot;</span>,<span class="st">&quot;director&quot;</span>,<span class="st">&quot;rating&quot;</span>,<span class="st">&quot;listed_in_new&quot;</span>]</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Define the training data.</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Represent the features as a list of dicts.</span></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>  X_train_dict <span class="op">=</span> exploded_movies[features].to_dict(orient<span class="op">=</span><span class="st">&quot;records&quot;</span>)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>  X_dict <span class="op">=</span> exploded_movies[features].to_dict(orient<span class="op">=</span><span class="st">&quot;records&quot;</span>)</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>  y<span class="op">=</span>exploded_movies[<span class="st">&quot;currentGross&quot;</span>]</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>  X_new_dict <span class="op">=</span> [{</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;duration&quot;</span>:duration,</span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;release_year&quot;</span>:release_year,</span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;rating&quot;</span>:rating,</span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;listed_in_new&quot;</span>:listed_in_new,</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;director&quot;</span>:director</span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>  }]</span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>  y_train <span class="op">=</span> exploded_movies[<span class="st">&quot;currentGross&quot;</span>]</span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Dummy encoding</span></span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a>  vec <span class="op">=</span> DictVectorizer(sparse<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb36-20"><a href="#cb36-20" aria-hidden="true" tabindex="-1"></a>  vec.fit(X_train_dict)</span>
+<span id="cb36-21"><a href="#cb36-21" aria-hidden="true" tabindex="-1"></a>  X_train <span class="op">=</span> vec.transform(X_train_dict)</span>
+<span id="cb36-22"><a href="#cb36-22" aria-hidden="true" tabindex="-1"></a>  X_new <span class="op">=</span> vec.transform(X_new_dict)</span>
+<span id="cb36-23"><a href="#cb36-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-24"><a href="#cb36-24" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Standardization</span></span>
+<span id="cb36-25"><a href="#cb36-25" aria-hidden="true" tabindex="-1"></a>  scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb36-26"><a href="#cb36-26" aria-hidden="true" tabindex="-1"></a>  scaler.fit(X_train)</span>
+<span id="cb36-27"><a href="#cb36-27" aria-hidden="true" tabindex="-1"></a>  X_train_sc <span class="op">=</span> scaler.transform(X_train)</span>
+<span id="cb36-28"><a href="#cb36-28" aria-hidden="true" tabindex="-1"></a>  X_new_sc <span class="op">=</span> scaler.transform(X_new)</span>
+<span id="cb36-29"><a href="#cb36-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-30"><a href="#cb36-30" aria-hidden="true" tabindex="-1"></a>  <span class="co"># K-Nearest Neighbors Model</span></span>
+<span id="cb36-31"><a href="#cb36-31" aria-hidden="true" tabindex="-1"></a>  model <span class="op">=</span> KNeighborsRegressor(n_neighbors<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb36-32"><a href="#cb36-32" aria-hidden="true" tabindex="-1"></a>  model.fit(X_train_sc, y_train)</span>
+<span id="cb36-33"><a href="#cb36-33" aria-hidden="true" tabindex="-1"></a>  x<span class="op">=</span>model.predict(X_new_sc)</span>
+<span id="cb36-34"><a href="#cb36-34" aria-hidden="true" tabindex="-1"></a>  revenue<span class="op">=</span>x[<span class="dv">0</span>]</span>
+<span id="cb36-35"><a href="#cb36-35" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> revenue</span></code></pre></div>
+</div>
+<div class="cell markdown" id="NK5MJY8xnuw9">
+<p>For example, here is the predicted gross revenue for the The Dark Knight</p>
+</div>
+<div class="cell code" id="T-OqSnvxnuQt">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(prediction(<span class="dv">152</span>, <span class="dv">2008</span>, <span class="st">&#39;PG-13&#39;</span>, <span class="st">&#39;Action&#39;</span>, <span class="st">&#39;Christopher Nolan&#39;</span>))</span></code></pre></div>
+</div>
+<div class="cell markdown" id="dEpx9jeYkW8j">
+<hr />
+<h1 id="application">Application</h1>
+</div>
+<div class="cell markdown" id="1nMlFMxTkaxi">
+<p>Now that I am able to estimate a movies gross revenue, there are many possible applications of it. One of these possible applications is to project the gross revenue of movies for Amazon Prime.</p>
+</div>
+<div class="cell code" id="GVRPvlBulh5G">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>exploded_amazon[<span class="st">&quot;currentGross&quot;</span>]<span class="op">=</span><span class="st">&quot;&quot;</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ind <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>  duration<span class="op">=</span>exploded_amazon[<span class="st">&quot;duration&quot;</span>][ind]</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>  release_year<span class="op">=</span>exploded_amazon[<span class="st">&quot;release_year&quot;</span>][ind]</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>  rating<span class="op">=</span>exploded_amazon[<span class="st">&quot;rating&quot;</span>][ind]</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>  listed_in_new<span class="op">=</span>exploded_amazon[<span class="st">&quot;listed_in_new&quot;</span>][ind]</span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>  director<span class="op">=</span>exploded_amazon[<span class="st">&quot;director&quot;</span>][ind]</span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>  exploded_amazon[<span class="st">&quot;currentGross&quot;</span>][ind]<span class="op">=</span>prediction(duration, release_year, rating, listed_in_new, director)</span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>exploded_amazon.head()</span></code></pre></div>
+</div>
+</body>
+</html>
